@@ -1,254 +1,73 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="color-scheme" content="light" />
-  <meta name="theme-color" content="#f7f2ec" />
-  <title>HolyBeans — Privacy Policy</title>
-  <style>
-    :root {
-      --bg: #f7f2ec;
-      --surface: #fffaf6;
-      --surface-2: #f5e3da;
-      --text: #261b17;
-      --muted: #67564f;
-      --accent: #9d5d34;
-      --accent-soft: #f6d7c8;
-      --border: #e3d5cd;
-      --shadow: 0 16px 40px rgba(70, 42, 28, 0.08);
-      --radius: 22px;
-    }
-
-    * { box-sizing: border-box; }
-
-    body {
-      margin: 0;
-      background:
-        radial-gradient(circle at 15% 0%, rgba(157,93,52,.08), transparent 28rem),
-        var(--bg);
-      color: var(--text);
-      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-                   "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      line-height: 1.65;
-    }
-
-    .wrap {
-      width: min(860px, calc(100% - 32px));
-      margin: 0 auto;
-      padding: 56px 0 72px;
-    }
-
-    header {
-      margin-bottom: 28px;
-    }
-
-    .brand {
-      display: inline-flex;
-      align-items: center;
-      gap: 12px;
-      margin-bottom: 20px;
-      font-weight: 800;
-      letter-spacing: -0.02em;
-      font-size: 1.05rem;
-    }
-
-    .bean {
-      width: 34px;
-      height: 34px;
-      border-radius: 50%;
-      background: var(--accent);
-      position: relative;
-      box-shadow: inset 0 0 0 1px rgba(255,255,255,.25);
-    }
-
-    .bean::after {
-      content: "";
-      position: absolute;
-      width: 7px;
-      height: 24px;
-      left: 13px;
-      top: 5px;
-      border-radius: 50%;
-      border-left: 3px solid #f7e7da;
-      transform: rotate(16deg);
-    }
-
-    .halo {
-      position: absolute;
-      width: 24px;
-      height: 8px;
-      border: 2px solid #d8a536;
-      border-radius: 50%;
-      left: 5px;
-      top: -7px;
-      background: transparent;
-    }
-
-    h1 {
-      margin: 0;
-      font-size: clamp(2.2rem, 7vw, 4rem);
-      line-height: 1.05;
-      letter-spacing: -0.05em;
-    }
-
-    .subtitle {
-      margin: 14px 0 0;
-      color: var(--muted);
-      font-size: 1.06rem;
-    }
-
-    .card {
-      background: rgba(255,250,246,.92);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 28px;
-      box-shadow: var(--shadow);
-    }
-
-    .updated {
-      display: inline-block;
-      background: var(--accent-soft);
-      color: #6f3f28;
-      border-radius: 999px;
-      padding: 7px 12px;
-      font-size: .9rem;
-      font-weight: 650;
-      margin-bottom: 24px;
-    }
-
-    h2 {
-      margin: 32px 0 8px;
-      font-size: 1.2rem;
-      letter-spacing: -0.02em;
-    }
-
-    h2:first-of-type { margin-top: 0; }
-
-    p { margin: 8px 0 0; }
-    ul { padding-left: 1.25rem; margin: 10px 0 0; }
-    li + li { margin-top: 6px; }
-
-    .contact {
-      margin-top: 18px;
-      padding: 18px;
-      background: var(--surface-2);
-      border-radius: 16px;
-    }
-
-    .contact strong { display: block; margin-bottom: 4px; }
-
-    a {
-      color: var(--accent);
-      text-underline-offset: 3px;
-    }
-
-    footer {
-      text-align: center;
-      color: var(--muted);
-      font-size: .88rem;
-      margin-top: 24px;
-    }
-
-    .edit-note {
-      margin-top: 22px;
-      border-left: 4px solid var(--accent);
-      padding: 14px 16px;
-      background: #fff3ed;
-      border-radius: 10px;
-      color: #5f4437;
-      font-size: .93rem;
-    }
-
-    code {
-      background: rgba(0,0,0,.05);
-      border-radius: 6px;
-      padding: .12rem .35rem;
-    }
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f7f2ec">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>HolyBeans — Privacy policy</title>
+  <meta name="description" content="What data HolyBeans uses and how you can control it.">
+  <link rel="canonical" href="https://holybeans.jacortes.me/">
+  <link rel="alternate" hreflang="es" href="https://holybeans.jacortes.me/es/">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main class="wrap">
-    <header>
-      <div class="brand">
-        <span class="bean" aria-hidden="true"><span class="halo"></span></span>
-        HolyBeans
-      </div>
-      <h1>Privacy Policy</h1>
-      <p class="subtitle">How HolyBeans handles your data.</p>
+  <a class="skip" href="#content">Skip to content</a>
+  <div class="wrap">
+    <header class="site-header">
+      <a class="brand" href="home/"><span class="bean" aria-hidden="true"><span class="halo"></span></span>HolyBeans</a>
+      <nav aria-label="Main navigation"><a href="home/">Home</a><a href="./">Privacy</a><a href="terms/">Terms</a><a href="es/" lang="es" hreflang="es">Español</a></nav>
     </header>
+    <main id="content">
+      <div class="intro">
+        <p class="eyebrow">COFFEE JOURNAL · ANDROID</p>
+        <h1>Privacy policy</h1>
+        <p class="subtitle">What data HolyBeans uses and how you can control it.</p>
 
-    <section class="card">
-      <div class="updated">Last updated: October 2, 2026</div>
-
-      <h2>Overview</h2>
-      <p>
-        HolyBeans is a coffee tracking application designed to help users manage
-        coffee beans, brews, equipment, tasting notes, and related statistics.
-      </p>
-
-      <h2>Data collection</h2>
-      <p>
-        HolyBeans does not collect, transmit, sell, or share personal data or
-        user-generated coffee data with the developer or third parties.
-      </p>
-      <p>
-        Information entered into the app — including coffee beans, brewing records,
-        equipment, tasting notes, statistics, and related data — is stored locally
-        on the user's device.
-      </p>
-      <p>HolyBeans does not require users to create an account.</p>
-
-      <h2>Local data</h2>
-      <p>
-        Application data is stored locally on the user's device and is used only
-        to provide the app's functionality. The developer does not have access to
-        this data.
-      </p>
-      <p>
-        Users can remove locally stored data by deleting it within the app,
-        clearing the app's storage, or uninstalling HolyBeans.
-      </p>
-
-      <h2>Third-party services</h2>
-      <p>
-        HolyBeans does not use advertising services and does not share user data
-        with third parties.
-      </p>
-
-      <h2>Data security</h2>
-      <p>
-        Because HolyBeans does not transmit user data to the developer's servers,
-        user data remains under the user's control on their device.
-      </p>
-
-      <h2>Children's privacy</h2>
-      <p>
-        HolyBeans is not specifically directed at children and does not knowingly
-        collect personal information from children.
-      </p>
-
-      <h2>Changes to this Privacy Policy</h2>
-      <p>
-        This Privacy Policy may be updated if HolyBeans' data handling practices
-        change. Any changes will be published on this page.
-      </p>
-
-      <h2>Contact</h2>
-      <p>
-        If you have any questions regarding this Privacy Policy, you can contact
-        the developer through the email address published on the HolyBeans listing
-        on Google Play.
-      </p>
-
-      <div class="edit-note">
-        This version assumes HolyBeans stores data locally and does not use analytics,
-        crash reporting, advertising, cloud sync, or other services that transmit
-        user data.
       </div>
-    </section>
-
-    <footer>© 2026 HolyBeans</footer>
-  </main>
+      <article class="card legal"><p class="updated">Last updated: October 28, 2026</p>
+        <section><h2>Your journal and your choices</h2>
+        <p>HolyBeans lets you record coffee beans, brews, equipment, inventory, tasting notes, café visits, photos and statistics. Information you enter is stored on your device to provide these features. You do not need a HolyBeans account. Connecting to Google is optional and is used only when you enable synchronization.</p>
+        <p>The developer does not automatically receive your journal or photos and has no access to your private Drive storage. HolyBeans does not include advertising, advertising tracking, usage analytics or automatic crash reporting to the developer.</p>
+        </section>
+        <section><h2>Optional Google Drive synchronization</h2>
+        <p>If you enable synchronization and authorize Google, HolyBeans uploads and downloads your journal, the settings included in its backup and associated photos between your device and the application’s private storage in your Google Drive account. It also retains previous versions and synchronization metadata to detect changes, recover data and resolve conflicts. Notes and photos may contain personal information you choose to include.</p>
+        <p>The requested permission is <code>https://www.googleapis.com/auth/drive.appdata</code>. It is limited to HolyBeans’ own data: it does not allow access to your other Drive documents, Gmail, contacts or Google Photos. The app uses an account-derived identifier to keep synchronization states separate. It does not request your Google password.</p>
+        <p>This data is used solely to provide the synchronization, recovery and conflict handling you request. It is transferred directly between the app and Google over HTTPS, without passing through a developer-operated server. Google hosts the data under its <a href="https://policies.google.com/privacy">privacy policy</a>. The app does not provide additional end-to-end encryption over Google’s service.</p>
+        <p>HolyBeans does not sell Google data or use it for advertising, commercial profiling, AI model training or purposes unrelated to these features. HolyBeans’ use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements.</p>
+        </section>
+        <section><h2>Retention, disconnecting and deletion</h2>
+        <p>Local data remains while you keep it in the app. You can edit or delete entries and export a backup. Deleting an entry does not necessarily remove its historical versions in earlier backups. Internal backups, exported files and copies in a folder you choose are independent of Drive.</p>
+        <p>Disabling synchronization in HolyBeans stops exchanges but keeps your local journal, pending changes and data already stored in Drive. Uninstalling the app or clearing its local storage does not delete exported backups or remote history. Remote versions remain until you delete them through Google.</p>
+        <p>To remove all remote history, first disable synchronization on all your devices. In Google Drive in a browser, open Settings → Manage apps → HolyBeans → Options → Delete hidden app data, when available. See <a href="https://support.google.com/drive/answer/6374270">Google’s storage help</a>. You can also revoke access through your <a href="https://myaccount.google.com/connections">Google account connections</a>. Revoking permission and deleting data are separate actions. If you enable synchronization again, your local journal may be uploaded again.</p>
+        <p>To remove all copies, also delete exported files and backups in folders you selected, as well as the local app data on each device. Keep a backup first if you want to recover the data later.</p>
+        </section>
+        <section><h2>Photos, files, devices and other services</h2>
+        <p>The camera, photo picker and file picker are used when you choose to add an image, import, export or select a folder. When you share a brew or backup, the content is passed to the app or destination you choose and is subject to its privacy practices.</p>
+        <p>Bluetooth permissions connect supported coffee devices. Older Android versions may require location permission to discover Bluetooth devices; HolyBeans does not use it to track your location. Network connections to coffee machines use the devices you configure.</p>
+        <p>If you use the optional Loffee Labs search, your query and configured API key are sent to that service. Opening links, maps or other external services may disclose connection information and link contents to those providers. These actions do not automatically send your entire journal to them.</p>
+        </section>
+        <section><h2>Security and this website</h2>
+        <p>Local data relies on your device’s protection, and Drive data on your Google account’s security. Google manages Google permissions; HolyBeans does not send its credentials to the developer. Protect access to your devices and keep backups in trusted locations.</p>
+        <p>This website is hosted on GitHub Pages. It has no forms, analytics, advertisements, external fonts or cookies added by HolyBeans. The hosting provider may process technical visit data, such as IP addresses, under the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub privacy statement</a>.</p>
+        </section>
+        <section><h2>Support and your rights</h2>
+        <p>If you contact us, we receive your email address and the content you choose to send so we can respond. Do not send passwords or complete journal backups unless needed to investigate an issue and you choose to share them. Correspondence is retained only as long as needed to handle the request and applicable obligations.</p>
+        <p>You can request information, access, correction or deletion of support data we hold, and exercise other applicable rights, by writing to the contact below. The developer cannot directly delete your local journal or private Drive storage; you can manage these through the controls described on this page. You may contact the competent data protection authority.</p>
+        </section>
+        <section><h2>Children and policy changes</h2>
+        <p>HolyBeans is not specifically directed at children. Google features are subject to Google’s account and age requirements.</p>
+        <p>We will update this page if data handling practices change. New uses of Google data requiring authorization will be explained before requesting it.</p>
+        </section>
+        <section><h2>Contact</h2>
+        <p>HolyBeans is an application by CaffeinatedDev. For support or privacy questions: <a href="mailto:corteshxn@gmail.com">corteshxn@gmail.com</a>.</p>
+        </section>
+        </article>
+    </main>
+    <footer><p>© 2026 HolyBeans · CaffeinatedDev</p>
+        <p><a href="home/">Home</a> · <a href="./">Privacy</a> · <a href="terms/">Terms</a></p>
+        </footer>
+  </div>
 </body>
 </html>
