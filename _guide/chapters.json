@@ -1,0 +1,622 @@
+[
+  {
+    "slug": "getting-started",
+    "es": {
+      "title": "Tu primera preparación",
+      "description": "Añade un café, registra una taza y guarda una copia de tu diario. Puedes empezar sin conectar ningún dispositivo.",
+      "sections": [
+        {
+          "id": "coffee",
+          "title": "Añade tu café",
+          "body": "<ol><li>Abre <strong>Granos</strong> y pulsa el botón de añadir.</li><li>Escribe el <strong>Nombre del café</strong>. Añade el tostador y los datos de la bolsa que quieras recordar: origen, proceso o fecha de tueste.</li><li>Indica la cantidad comprada y cuánto queda si quieres llevar las existencias. Si no lo sabes, deja el dato sin completar; una cantidad desconocida no equivale a cero.</li><li>Guarda el café. Podrás completar o corregir su ficha más adelante.</li></ol><p>Un café agrupa su información y sus preparaciones; los lotes permiten distinguir compras o tuestes del mismo café.</p>"
+        },
+        {
+          "id": "equipment",
+          "title": "Prepara tu equipo",
+          "body": "<p>En <strong>Equipo</strong>, añade tu método de preparación y, si lo usas, tu molino. Elige la categoría que corresponda: la app interpreta de forma distinta el resultado de un espresso y el agua de un filtro.</p><p>Puedes añadir herramientas y perfiles de agua cuando los necesites. Una báscula Bluetooth es opcional: también puedes escribir los pesos y tiempos a mano.</p>"
+        },
+        {
+          "id": "brew",
+          "title": "Registra la taza",
+          "body": "<ol><li>Abre el café y elige <strong>Preparar</strong>.</li><li>Selecciona el método y, si aparece el selector, el lote. Elige el molino o la opción de café premolido.</li><li>Introduce la dosis. Para filtro, anota el agua añadida; para espresso, apunta la bebida obtenida en el resultado.</li><li>Registra el tiempo y los demás datos que te interesen. Guarda la preparación.</li><li>Después de probarla, abre <strong>Valorar</strong> para añadir tu nota y lo que cambiarías en la siguiente taza.</li></ol>"
+        },
+        {
+          "id": "example",
+          "title": "Un ejemplo de principio a fin",
+          "body": "<p>Estos datos son ficticios y sirven para explicar el registro; no son una receta recomendada.</p><dl class=\"example\"><div><dt>Café</dt><dd>Café de ejemplo · 250 g disponibles</dd></div><div><dt>Preparación de filtro</dt><dd>15 g de café · 240 g de agua · ratio 1:16</dd></div><div><dt>Después de guardar</dt><dd>235 g disponibles</dd></div></dl><p>La dosis se descuenta al guardar. Si editas después esa dosis, se ajusta el consumo; archivar la preparación conserva el consumo registrado.</p>"
+        },
+        {
+          "id": "backup",
+          "title": "Guarda una copia",
+          "body": "<p>Ve a <strong>Ajustes → Compartir copia de seguridad</strong> y guarda el archivo ZIP en un lugar que puedas recuperar. Incluye el diario y sus fotos. Consulta <a href=\"../backups/\">Copias y restauración</a> para elegir una rutina de respaldo.</p>"
+        }
+      ]
+    },
+    "en": {
+      "title": "Your first brew",
+      "description": "Add a coffee, record a cup and save a backup of your journal. You can start without connecting any devices.",
+      "sections": [
+        {
+          "id": "coffee",
+          "title": "Add your coffee",
+          "body": "<ol><li>Open <strong>Beans</strong> and tap the add button.</li><li>Enter the <strong>Coffee name</strong>. Add the roaster and any bag details you want to remember: origin, process or roast date.</li><li>Enter the purchased amount and how much remains if you want to track stock. Leave a value blank if you do not know it; unknown stock is different from zero.</li><li>Save the coffee. You can complete or correct its details later.</li></ol><p>A coffee groups its information and brews; lots distinguish purchases or roasts of the same coffee.</p>"
+        },
+        {
+          "id": "equipment",
+          "title": "Set up your equipment",
+          "body": "<p>In <strong>Equipment</strong>, add your brew method and, if you use one, your grinder. Choose the appropriate category: the app treats espresso output differently from water added to a filter brew.</p><p>Add tools and water profiles when you need them. A Bluetooth scale is optional: weights and times can also be entered manually.</p>"
+        },
+        {
+          "id": "brew",
+          "title": "Record the cup",
+          "body": "<ol><li>Open the coffee and choose <strong>Brew</strong>.</li><li>Select a method and, if a selector appears, a lot. Choose your grinder or the pre-ground option.</li><li>Enter the dose. For filter coffee, record water added; for espresso, enter beverage yield in the result.</li><li>Record the time and any other details you need. Save the brew.</li><li>After tasting, open <strong>Rate</strong> to add your rating and what you would change next time.</li></ol>"
+        },
+        {
+          "id": "example",
+          "title": "A complete example",
+          "body": "<p>These fictional values explain how recording works; they are not a recommended recipe.</p><dl class=\"example\"><div><dt>Coffee</dt><dd>Example coffee · 250 g available</dd></div><div><dt>Filter brew</dt><dd>15 g coffee · 240 g water · 1:16 ratio</dd></div><div><dt>After saving</dt><dd>235 g available</dd></div></dl><p>The dose is deducted when you save. Editing the dose adjusts consumption; archiving the brew preserves its recorded consumption.</p>"
+        },
+        {
+          "id": "backup",
+          "title": "Save a backup",
+          "body": "<p>Go to <strong>Settings → Share backup</strong> and save the ZIP somewhere you can recover it. It includes your journal and photos. See <a href=\"../backups/\">Backups and restore</a> to choose a backup routine.</p>"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "beans",
+    "es": {
+      "title": "Cafés, lotes y congelador",
+      "description": "Mantén al día lo que tienes, lo que has preparado y lo que has reservado para más adelante.",
+      "sections": [
+        {
+          "id": "lots",
+          "title": "Organiza cafés y lotes",
+          "body": "<p>La ficha del café reúne el nombre, tostador, origen y tus notas. Usa sus lotes para distinguir compras y fechas de tueste. Al preparar, selecciona el lote del que sale la dosis si hay varios disponibles.</p><p>En <strong>Granos</strong> puedes buscar, filtrar y cambiar la vista. La agrupación por tostador y el calendario de frescura ayudan a localizar bolsas; las estimaciones de frescura son orientativas, no una medida del sabor.</p>"
+        },
+        {
+          "id": "stock",
+          "title": "Comprado, disponible y congelado",
+          "body": "<p>La cantidad comprada sirve como referencia de compra y coste. El café disponible es lo que puedes usar sin recurrir a una porción congelada. El congelado se conserva por separado.</p><p>Guardar una preparación con dosis descuenta existencias del origen elegido. Archivar una preparación no devuelve café. Si falta una cantidad, la app mantiene ese dato como desconocido.</p>"
+        },
+        {
+          "id": "adjust",
+          "title": "Registra regalos, mermas o una pesada",
+          "body": "<ol><li>En la ficha del café, abre <strong>Ajustar existencias</strong>.</li><li>Elige <strong>Regalo</strong> o <strong>Merma</strong> para retirar una cantidad, o <strong>Corrección por pesada</strong> para indicar cuánto queda.</li><li>Selecciona el origen, introduce los gramos y revisa el saldo que quedará.</li><li>Añade una nota si ayuda y guarda. Consulta los movimientos desde <strong>Ajustes de existencias</strong>.</li></ol><p>Un regalo o una merma reduce el inventario sin contar como una preparación. Si el saldo era desconocido, empieza por una corrección por pesada. Deshacer un ajuste depende de que el café necesario siga disponible.</p>"
+        },
+        {
+          "id": "freeze",
+          "title": "Congela y utiliza porciones",
+          "body": "<ol><li>Abre <strong>Congelar café</strong> y elige la cantidad.</li><li>Si quieres monodosis, activa <strong>Dividir en porciones</strong>, indica el peso y decide qué hacer con el resto.</li><li>Para devolver café al disponible, usa <strong>Descongelar</strong>. Para usar una porción en una taza, elige <strong>Descongelar y preparar</strong>.</li><li>Revisa la porción y la dosis antes de guardar la preparación.</li></ol><p>La congelación cambia dónde está el café, no la cantidad que compraste. La preparación conserva la procedencia de la porción.</p>"
+        },
+        {
+          "id": "archive",
+          "title": "Archiva un café terminado",
+          "body": "<p>Archivar conserva el historial y oculta el café de la lista activa. También archiva sus preparaciones activas, sin cambiar el inventario. Recuperar el café devuelve esas preparaciones; las que habías archivado individualmente siguen archivadas.</p><p>Usa los filtros de archivo para consultar cafés anteriores. Antes de borrar datos definitivamente, guarda una <a href=\"../backups/\">copia completa</a>.</p>"
+        }
+      ]
+    },
+    "en": {
+      "title": "Coffees, lots and freezer",
+      "description": "Keep track of what you have, what you have brewed and what you have set aside for later.",
+      "sections": [
+        {
+          "id": "lots",
+          "title": "Organize coffees and lots",
+          "body": "<p>A coffee holds its name, roaster, origin and your notes. Use lots to distinguish purchases and roast dates. When brewing, choose the lot supplying the dose if several are available.</p><p>In <strong>Beans</strong>, search, filter and change the view. Grouping by roaster and the freshness calendar help you find bags; freshness estimates are guidance, not a measurement of taste.</p>"
+        },
+        {
+          "id": "stock",
+          "title": "Purchased, available and frozen",
+          "body": "<p>The purchased amount is a reference for buying and cost. Available coffee can be used without drawing from a frozen portion. Frozen stock is tracked separately.</p><p>Saving a brew with a dose deducts stock from the chosen source. Archiving a brew does not return coffee. When an amount is missing, the app keeps it unknown.</p>"
+        },
+        {
+          "id": "adjust",
+          "title": "Record gifts, waste or a weighed correction",
+          "body": "<ol><li>Open <strong>Adjust stock</strong> from the coffee details.</li><li>Choose <strong>Gift</strong> or <strong>Waste</strong> to remove an amount, or <strong>Weighed correction</strong> to set how much remains.</li><li>Select the source, enter grams and review the resulting balance.</li><li>Add a note if useful and save. View movements in <strong>Stock adjustments</strong>.</li></ol><p>A gift or waste reduces inventory without counting as a brew. If stock was unknown, start with a weighed correction. Undoing an adjustment depends on the required coffee still being available.</p>"
+        },
+        {
+          "id": "freeze",
+          "title": "Freeze and use portions",
+          "body": "<ol><li>Open <strong>Freeze coffee</strong> and choose the amount.</li><li>For single doses, enable <strong>Divide into portions</strong>, enter a portion weight and decide what to do with the remainder.</li><li>Use <strong>Thaw</strong> to return coffee to available stock. Use <strong>Thaw and brew</strong> to prepare a cup from a portion.</li><li>Check the portion and dose before saving the brew.</li></ol><p>Freezing changes where coffee is held, not how much you purchased. The brew retains its portion provenance.</p>"
+        },
+        {
+          "id": "archive",
+          "title": "Archive a finished coffee",
+          "body": "<p>Archiving preserves history and hides a coffee from the active list. It also archives its active brews without changing stock. Restoring the coffee brings those brews back; individually archived brews stay archived.</p><p>Use archive filters to find previous coffees. Before permanently deleting data, save a <a href=\"../backups/\">full backup</a>.</p>"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "brewing",
+    "es": {
+      "title": "Recetas y preparaciones",
+      "description": "Registra lo que hiciste y utiliza el resultado para decidir qué repetir o cambiar.",
+      "sections": [
+        {
+          "id": "recipe",
+          "title": "Distingue receta y resultado",
+          "body": "<p>Elige café, lote y método antes de revisar la receta. Anota dosis, molino y ajuste; añade temperatura, herramientas y agua si te ayudan a repetirla.</p><p>En espresso, el ratio compara dosis y bebida obtenida. En filtro o inmersión, compara dosis y agua añadida. La bebida final y el agua añadida no son intercambiables.</p><p>Ejemplos ficticios: 18 g de café y 36 g de espresso dan 1:2; 15 g de café y 240 g de agua de filtro dan 1:16.</p>"
+        },
+        {
+          "id": "timer",
+          "title": "Tiempo, curva y vertidos",
+          "body": "<p>Puedes registrar tiempos manualmente o usar el cronómetro. Sin báscula conectada, los controles de filtro aparecen junto al reparto de agua; con báscula, están en la gráfica. Detén el cronómetro al terminar y revisa el resultado antes de guardar.</p><p>El <strong>Asistente de vertido</strong> permite repartir el agua entre blooms y vertidos. Ajusta dosis, ratio, cantidades y esperas. Un reparto planificado describe la receta; una curva recoge las lecturas disponibles del dispositivo. Comprueba cuál estás consultando.</p>"
+        },
+        {
+          "id": "repeat",
+          "title": "Repite y compara",
+          "body": "<p>Usa <strong>Repetir</strong> desde una preparación para iniciar otra con su receta. Revisa los datos de la nueva taza antes de guardarla: repetir crea una preparación nueva y consume su dosis.</p><p><strong>Comparar</strong> permite elegir otra preparación y consultar diferencias y curvas sin modificar el diario. Los datos ausentes no se convierten en ceros. Las diferencias muestran qué cambió, no qué taza es mejor.</p><p>La app también puede recordar valores del método al abrir una preparación nueva. Revisa siempre los campos precargados.</p>"
+        },
+        {
+          "id": "taste",
+          "title": "Valora después de probar",
+          "body": "<p>Abre <strong>Valorar</strong> para anotar tu impresión, notas de sabor y perfil sensorial. La valoración del café y la de una preparación son independientes. Puedes dejar sin puntuar lo que no hayas evaluado.</p><p>Con dosis, bebida y TDS puedes consultar el rendimiento de extracción. Las medidas estimadas desde Brix y las referencias del mapa sensorial deben interpretarse como orientación. Consulta la explicación dentro de la app y contrasta con tu cata.</p>"
+        },
+        {
+          "id": "share",
+          "title": "Elige qué muestras y compartes",
+          "body": "<p>En <strong>Ajustes → Parámetros de preparación</strong> eliges qué aparece en el formulario, detalle e historial y qué se comparte. Ocultar un campo no borra sus datos.</p><p>Al compartir una preparación, revisa la vista previa, los campos seleccionados y la foto. En <strong>Ajustes → Plantillas para compartir</strong> puedes preparar tus textos. Compartir una taza no equivale a exportar una copia del diario.</p>"
+        }
+      ]
+    },
+    "en": {
+      "title": "Recipes and brews",
+      "description": "Record what you did and use the result to decide what to repeat or change.",
+      "sections": [
+        {
+          "id": "recipe",
+          "title": "Separate recipe from result",
+          "body": "<p>Select coffee, lot and method before reviewing the recipe. Record dose, grinder and setting; add temperature, tools and water if they help you repeat it.</p><p>For espresso, ratio compares dose with beverage yield. For filter or immersion, it compares dose with water added. Final beverage and water added are not interchangeable.</p><p>Fictional examples: 18 g coffee and 36 g espresso give 1:2; 15 g coffee and 240 g filter water give 1:16.</p>"
+        },
+        {
+          "id": "timer",
+          "title": "Time, curves and pours",
+          "body": "<p>Enter times manually or use the timer. Without a connected scale, filter controls sit beside the water breakdown; with a scale, they are in the chart. Stop the timer at the end and review the result before saving.</p><p>The <strong>Pour assistant</strong> divides water between blooms and pours. Adjust dose, ratio, amounts and waits. A planned breakdown describes the recipe; a curve records the readings available from a device. Check which one you are viewing.</p>"
+        },
+        {
+          "id": "repeat",
+          "title": "Repeat and compare",
+          "body": "<p>Use <strong>Repeat</strong> on a brew to start another with its recipe. Review the new cup before saving: repeating creates a new brew and consumes its dose.</p><p><strong>Compare</strong> lets you choose another brew and inspect differences and curves without changing your journal. Missing values are not treated as zero. Differences show what changed, not which cup is better.</p><p>The app may also recall method values when you open a new brew. Always review prefilled fields.</p>"
+        },
+        {
+          "id": "taste",
+          "title": "Rate after tasting",
+          "body": "<p>Open <strong>Rate</strong> to record your impression, flavor notes and sensory profile. Coffee ratings and brew ratings are independent. Leave anything you have not evaluated unrated.</p><p>With dose, beverage yield and TDS, you can view extraction yield. Brix-based estimates and sensory-map references are guidance. Read the explanation in the app and compare it with your tasting.</p>"
+        },
+        {
+          "id": "share",
+          "title": "Choose what to show and share",
+          "body": "<p>In <strong>Settings → Brew parameters</strong>, choose what appears in the form, details and history, and what is shared. Hiding a field does not erase its data.</p><p>Before sharing a brew, check the preview, selected fields and photo. Prepare your wording in <strong>Settings → Share templates</strong>. Sharing a cup is different from exporting a journal backup.</p>"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "equipment",
+    "es": {
+      "title": "Equipo, agua y conexiones",
+      "description": "Organiza tus métodos y conecta dispositivos cuando necesites registrar sus lecturas.",
+      "sections": [
+        {
+          "id": "catalog",
+          "title": "Crea tu catálogo",
+          "body": "<p><strong>Equipo</strong> reúne métodos, molinos, herramientas y agua. Añade solo lo que uses. Asocia herramientas a sus métodos para encontrarlas al preparar; archivar equipo conserva sus usos anteriores.</p><p>Un perfil de agua se puede seleccionar en distintas preparaciones. El nombre utilizado queda registrado, pero editar después la composición del perfil no crea una medición química histórica de cada taza.</p>"
+        },
+        {
+          "id": "water",
+          "title": "Utiliza la calculadora de agua",
+          "body": "<ol><li>Abre <strong>Equipo → Agua → Calculadora de agua</strong>.</li><li>Indica el agua de partida, el volumen final y la receta u objetivo que quieras estudiar.</li><li>Revisa las sales disponibles y su forma química, especialmente la del cloruro de calcio.</li><li>Comprueba las cantidades y la composición calculadas antes de guardar el perfil.</li></ol><p>La calculadora trabaja con dosis directas de sales. Los valores desconocidos del agua de partida no se interpretan como cero; el pH y el TDS medido no se deducen de la receta. Las referencias y sus fuentes se consultan en la propia herramienta.</p>"
+        },
+        {
+          "id": "scale",
+          "title": "Conecta una báscula",
+          "body": "<ol><li>Enciende la báscula y desconéctala de otras apps o móviles.</li><li>Abre <strong>Ajustes → Báscula Bluetooth → Buscar báscula</strong>.</li><li>Concede el permiso que Android solicite para buscar dispositivos y selecciona tu báscula.</li><li>Comprueba que el peso cambia antes de iniciar una preparación.</li></ol><p>Puedes recordar varias básculas; HolyBeans mantiene una conexión activa. Con varias encendidas, prioriza la última utilizada sin sustituir una conexión que ya está activa.</p><p>La app admite BOOKOO y soporte en pruebas para DiFluid Microbalance (V300 o posterior), Microbalance Ti (V010 o posterior) y Acaia Lunar, Pearl, Pearl S y Pyxis. Modelo y firmware importan; aparecer en la lista no garantiza todas las funciones en cada unidad.</p>"
+        },
+        {
+          "id": "sensors",
+          "title": "Presión y refractómetro",
+          "body": "<p>En <strong>Ajustes → Sensor de presión Bluetooth</strong> puedes conectar un BOOKOO Espresso Monitor. HolyBeans inicia y para la transmisión para registrar presión; no lo pone a cero ni modifica sus ajustes.</p><p>En <strong>Ajustes → Refractómetro Bluetooth</strong> puedes conectar un DiFluid R2. El botón junto a TDS solicita una medición; también se reciben las iniciadas desde el propio refractómetro. La app no calibra ni modifica su configuración. Ambas integraciones están en pruebas.</p>"
+        },
+        {
+          "id": "machine",
+          "title": "Consulta una Meticulous",
+          "body": "<p>Configura la conexión de la cafetera en su método y utiliza las opciones de consulta e importación de tiros. El teléfono debe poder acceder a la cafetera por la red configurada.</p><p>HolyBeans consulta datos de la máquina; no inicia extracciones ni cambia perfiles o ajustes. Revisa el tiro importado y su asociación al café antes de guardarlo. Para etiquetas, sigue la <a href=\"../labels/\">guía de impresoras</a>.</p>"
+        }
+      ]
+    },
+    "en": {
+      "title": "Equipment, water and connections",
+      "description": "Organize your methods and connect devices when you want to record their readings.",
+      "sections": [
+        {
+          "id": "catalog",
+          "title": "Build your equipment list",
+          "body": "<p><strong>Equipment</strong> groups methods, grinders, tools and water. Add what you use. Associate tools with methods to find them when brewing; archiving equipment preserves its previous uses.</p><p>A water profile can be selected for multiple brews. The name used is recorded, but editing the profile composition later does not create a historical chemical measurement for each cup.</p>"
+        },
+        {
+          "id": "water",
+          "title": "Use the water calculator",
+          "body": "<ol><li>Open <strong>Equipment → Water → Water calculator</strong>.</li><li>Enter the starting water, final volume and recipe or target you want to explore.</li><li>Review available salts and their chemical form, particularly calcium chloride.</li><li>Check the calculated amounts and composition before saving the profile.</li></ol><p>The calculator uses direct salt doses. Unknown starting-water values are not treated as zero; measured pH and TDS are not inferred from a recipe. References and their sources are available within the tool.</p>"
+        },
+        {
+          "id": "scale",
+          "title": "Connect a scale",
+          "body": "<ol><li>Turn on the scale and disconnect it from other apps or phones.</li><li>Open <strong>Settings → Bluetooth scale → Find scale</strong>.</li><li>Grant the device-search permission requested by Android and select your scale.</li><li>Check that weight readings change before starting a brew.</li></ol><p>You can remember several scales; HolyBeans maintains one active connection. If several are on, it prioritizes the last one used without replacing an existing active connection.</p><p>The app supports BOOKOO, with experimental support for DiFluid Microbalance (V300 or later), Microbalance Ti (V010 or later), and Acaia Lunar, Pearl, Pearl S and Pyxis. Model and firmware matter; being listed does not guarantee every feature on every unit.</p>"
+        },
+        {
+          "id": "sensors",
+          "title": "Pressure and refractometer",
+          "body": "<p>Connect a BOOKOO Espresso Monitor in <strong>Settings → Bluetooth pressure sensor</strong>. HolyBeans starts and stops transmission to record pressure; it does not zero the sensor or change its settings.</p><p>Connect a DiFluid R2 in <strong>Settings → Bluetooth refractometer</strong>. The button beside TDS requests a measurement; readings started on the refractometer are also received. The app does not calibrate it or change its configuration. Both integrations are experimental.</p>"
+        },
+        {
+          "id": "machine",
+          "title": "Read from a Meticulous",
+          "body": "<p>Configure the machine connection in its brew method and use the shot-reading and import options. Your phone must be able to reach the machine over the configured network.</p><p>HolyBeans reads machine data; it does not start shots or change profiles or settings. Review the imported shot and its coffee association before saving. For labels, follow the <a href=\"../labels/\">printer guide</a>.</p>"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "tasting",
+    "es": {
+      "title": "Sesiones de cata",
+      "description": "Compara varias tazas, guarda tus impresiones y vuelve a consultar la sesión.",
+      "sections": [
+        {
+          "id": "setup",
+          "title": "Prepara de dos a seis tazas",
+          "body": "<p>Abre <strong>Equipo → Métodos</strong> y pulsa <strong>Comenzar</strong> en la fila de <strong>Cata</strong>. Elige el número de tazas y, si te ayuda, un nombre para la sesión. Puedes repetir un mismo café en varias tazas.</p><p>Define dosis, agua y temperatura comunes. Selecciona molino, ajuste y perfil de agua compartidos o cámbialos por taza. En una cata normal, elige el café y su lote o porción congelada para cada taza.</p><p>Comprueba que hay café suficiente para todas las tazas. El borrador todavía no descuenta existencias.</p>"
+        },
+        {
+          "id": "timer",
+          "title": "Sigue las fases",
+          "body": "<ol><li>Revisa los tiempos de los avisos y pulsa <strong>Iniciar y echar agua</strong>.</li><li>Al romper la costra y retirar la espuma, marca el paso correspondiente.</li><li>Deja enfriar y empieza a catar cuando la temperatura permita evaluar la taza.</li><li>Valora cada taza y añade notas que te ayuden a distinguirla.</li></ol><p>Los tiempos son editables y orientativos. El reloj puede pausarse o reiniciarse por fase y se recupera al volver. Los avisos sonoros funcionan con la pantalla de cata abierta y respetan el silencio del dispositivo.</p>"
+        },
+        {
+          "id": "blind",
+          "title": "Haz una cata a ciegas",
+          "body": "<p>Activa <strong>Cata a ciegas</strong> al preparar la sesión. Las tazas se identifican con letras y se puntúan sin asignar cafés.</p><p>Cuando confirmes las valoraciones, las puntuaciones y notas quedan fijadas. Después asigna cada letra a un café y sus existencias. Una identificación incompleta sigue siendo un borrador sin consumo.</p>"
+        },
+        {
+          "id": "finish",
+          "title": "Finaliza y consulta",
+          "body": "<p>Responde la nota general y las cinco intensidades de cada taza. Puedes elegir <strong>No evaluado</strong>; dejarlo <strong>Sin responder</strong> mantiene el campo pendiente. La nota general va de 0 a 10 y las intensidades de 1 a 5. Son valoraciones personales, no puntuaciones de calidad SCA.</p><p>Al pulsar <strong>Finalizar cata</strong>, cada taza se guarda como una preparación y consume su dosis. Consulta la sesión en <strong>Sesiones de cata</strong> y revisa qué notas incluyes antes de compartirla.</p>"
+        }
+      ]
+    },
+    "en": {
+      "title": "Cupping sessions",
+      "description": "Compare several cups, save your impressions and revisit the session.",
+      "sections": [
+        {
+          "id": "setup",
+          "title": "Set up two to six cups",
+          "body": "<p>Open <strong>Equipment → Methods</strong> and tap <strong>Start</strong> in the <strong>Cupping</strong> row. Choose the number of cups and an optional session name. The same coffee can appear in several cups.</p><p>Set a shared dose, water amount and temperature. Choose a common grinder, setting and water profile or adjust them per cup. For a regular session, select each cup's coffee and lot or frozen portion.</p><p>Check that there is enough coffee for all cups. A draft does not deduct stock.</p>"
+        },
+        {
+          "id": "timer",
+          "title": "Follow the phases",
+          "body": "<ol><li>Review reminder times and tap <strong>Start and pour water</strong>.</li><li>Mark the corresponding step after breaking the crust and skimming the foam.</li><li>Let the cups cool and begin tasting when the temperature allows you to evaluate them.</li><li>Rate each cup and add notes that help distinguish it.</li></ol><p>Times are editable guides. The timer can be paused or reset per phase and resumes when you return. Sound reminders work while the cupping screen is open and respect the device's silent mode.</p>"
+        },
+        {
+          "id": "blind",
+          "title": "Run a blind cupping",
+          "body": "<p>Enable <strong>Blind cupping</strong> when setting up the session. Cups use letters and are scored before coffees are assigned.</p><p>Confirming ratings fixes the scores and notes. Then assign a coffee and stock source to each letter. Incomplete identification remains a draft without consuming stock.</p>"
+        },
+        {
+          "id": "finish",
+          "title": "Finish and revisit",
+          "body": "<p>Answer the overall rating and five intensities for each cup. You can choose <strong>Not evaluated</strong>; leaving a field <strong>Unanswered</strong> keeps it pending. Overall ratings run from 0 to 10 and intensities from 1 to 5. These are personal ratings, not SCA quality scores.</p><p>Choosing <strong>Finish cupping</strong> saves each cup as a brew and consumes its dose. Revisit it in <strong>Cupping sessions</strong> and check which notes you include before sharing.</p>"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "cafes",
+    "es": {
+      "title": "Café fuera de casa",
+      "description": "Guarda una bebida de cafetería sin crear una bolsa ni modificar las existencias de casa.",
+      "sections": [
+        {
+          "id": "record",
+          "title": "Registra una bebida",
+          "body": "<ol><li>Abre <strong>Cafeterías</strong> desde el acceso de Inicio.</li><li>Añade una bebida y selecciona el local o introduce sus datos.</li><li>Registra el tipo de bebida y lo que sepas del café: tostador, origen o proceso.</li><li>Añade precio y moneda, valoración, notas o una foto si quieres conservarlos. Guarda.</li></ol><p>Puedes dejar sin completar los datos que el local no facilite. El país de la cafetería y el origen del café son cosas distintas.</p>"
+        },
+        {
+          "id": "places",
+          "title": "Encuentra el local",
+          "body": "<p>El selector incluye un catálogo de lugares y muestra su procedencia. Puedes utilizarlo para rellenar los datos del local; revisa ciudad y país antes de guardar.</p><p>Registrar una visita no necesita tu posición. Al abrir un enlace de mapa o una web saldrás al servicio correspondiente.</p>"
+        },
+        {
+          "id": "history",
+          "title": "Consulta tostadores y gasto",
+          "body": "<p>Las bebidas de cafetería se conservan aparte de las preparaciones de casa y no descuentan café. Las fichas de tostadores permiten consultar ambas partes de tu historial, diferenciadas.</p><p>El gasto de cafeterías se agrupa por moneda: importes en monedas distintas no se convierten ni se suman como si fueran equivalentes.</p>"
+        },
+        {
+          "id": "share",
+          "title": "Comparte solo lo que elijas",
+          "body": "<p>Abre <strong>Compartir bebida de cafetería</strong> y elige texto o imagen. Revisa qué datos incluyes: fecha, precio, notas y foto pueden revelar información que prefieras conservar en tu diario.</p><p>Comprueba la vista previa y después elige el destino de Android. Compartir no modifica la bebida guardada.</p>"
+        }
+      ]
+    },
+    "en": {
+      "title": "Coffee away from home",
+      "description": "Record a café drink without creating a bag or changing your stock at home.",
+      "sections": [
+        {
+          "id": "record",
+          "title": "Record a drink",
+          "body": "<ol><li>Open <strong>Cafés</strong> from its Home shortcut.</li><li>Add a drink and select a venue or enter its details.</li><li>Record the drink type and what you know about the coffee: roaster, origin or process.</li><li>Add price and currency, a rating, notes or a photo if you want to keep them. Save.</li></ol><p>Leave details blank if the venue does not provide them. The café's country and the coffee's origin are different things.</p>"
+        },
+        {
+          "id": "places",
+          "title": "Find the venue",
+          "body": "<p>The picker includes a venue catalog and shows its source. Use it to fill in venue details; review the city and country before saving.</p><p>Recording a visit does not require your location. Opening a map link or website takes you to the corresponding service.</p>"
+        },
+        {
+          "id": "history",
+          "title": "Review roasters and spending",
+          "body": "<p>Café drinks are kept separately from home brews and do not deduct coffee stock. Roaster profiles let you consult both parts of your history, distinguished from each other.</p><p>Café spending is grouped by currency: amounts in different currencies are not converted or added as though they were equivalent.</p>"
+        },
+        {
+          "id": "share",
+          "title": "Share only what you choose",
+          "body": "<p>Open <strong>Share café drink</strong> and choose text or image. Review the included fields: dates, prices, notes and photos can reveal information you may prefer to keep in your journal.</p><p>Check the preview, then select an Android sharing destination. Sharing does not change the saved drink.</p>"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "statistics",
+    "es": {
+      "title": "Lee tus estadísticas",
+      "description": "Entiende qué cuentan las gráficas y qué datos necesitas para interpretarlas.",
+      "sections": [
+        {
+          "id": "period",
+          "title": "Empieza por el periodo",
+          "body": "<p>Abre <strong>Estadísticas</strong> y elige 7, 30 o 90 días, un año o todo el historial. El periodo se comparte entre las pestañas.</p><p>Las métricas históricas incluyen preparaciones archivadas. Las existencias actuales tienen otro criterio: reflejan el café activo, incluido el congelado, y no dependen del periodo elegido.</p>"
+        },
+        {
+          "id": "tabs",
+          "title": "Qué encontrarás en cada pestaña",
+          "body": "<dl><dt>Resumen</dt><dd>Preparaciones, consumo, dosis, actividad y existencias. El consumo suma las dosis registradas, no regalos, mermas ni purgas que no hayas anotado como preparación.</dd><dt>Cafés</dt><dd>Orígenes, tostadores, procesos, variedades y valoraciones de los cafés preparados en el periodo.</dd><dt>Preparaciones</dt><dd>Métodos, ratios, tiempos, valoraciones y medidas de extracción cuando hay datos suficientes.</dd><dt>Costes</dt><dd>Compras y coste estimado del café utilizado, a partir de las cantidades y precios registrados.</dd></dl>"
+        },
+        {
+          "id": "interpret",
+          "title": "Lee también los datos que faltan",
+          "body": "<p>Una nota ausente no es un cero. Un precio sin registrar impide calcular ese coste. Comprueba cuántos registros aportan información antes de comparar resultados.</p><p>Los resúmenes de tiempo y ratio de espresso y filtro utilizan medianas. El ratio de espresso usa bebida; el de filtro, agua. Las valoraciones medias reflejan tus registros, no una medida objetiva de calidad.</p><p>Toca una barra o un punto para consultar su valor. Usa <a href=\"../brewing/#repeat\">Comparar preparaciones</a> cuando necesites revisar dos tazas concretas.</p>"
+        },
+        {
+          "id": "export",
+          "title": "Trabaja con tus datos en una hoja de cálculo",
+          "body": "<p>En <strong>Ajustes</strong>, la exportación de preparaciones a CSV permite analizar los registros en una hoja de cálculo. Es una salida para análisis, no una copia completa con fotos ni un archivo de restauración. Para proteger el diario, utiliza el <a href=\"../backups/\">ZIP de copia de seguridad</a>.</p>"
+        }
+      ]
+    },
+    "en": {
+      "title": "Read your statistics",
+      "description": "Understand what charts count and which data you need to interpret them.",
+      "sections": [
+        {
+          "id": "period",
+          "title": "Start with a date range",
+          "body": "<p>Open <strong>Statistics</strong> and choose 7, 30 or 90 days, one year or all history. The range is shared across tabs.</p><p>Historical metrics include archived brews. Current stock follows a different rule: it reflects active coffee, including frozen stock, and does not depend on the selected period.</p>"
+        },
+        {
+          "id": "tabs",
+          "title": "What each tab shows",
+          "body": "<dl><dt>Overview</dt><dd>Brews, consumption, dose, activity and stock. Consumption adds recorded doses, not gifts, waste or purging that you have not recorded as a brew.</dd><dt>Coffees</dt><dd>Origins, roasters, processes, varieties and ratings for coffees brewed during the period.</dd><dt>Brews</dt><dd>Methods, ratios, times, ratings and extraction measurements when enough data is available.</dd><dt>Costs</dt><dd>Purchases and estimated cost of coffee used, based on recorded quantities and prices.</dd></dl>"
+        },
+        {
+          "id": "interpret",
+          "title": "Notice what is missing",
+          "body": "<p>A missing rating is not zero. A missing price prevents that cost from being calculated. Check how many records contribute information before comparing results.</p><p>Espresso and filter time and ratio summaries use medians. Espresso ratio uses beverage yield; filter ratio uses water. Average ratings reflect your records, not an objective measure of quality.</p><p>Tap a bar or point to inspect its value. Use <a href=\"../brewing/#repeat\">Compare brews</a> to examine two specific cups.</p>"
+        },
+        {
+          "id": "export",
+          "title": "Explore your data in a spreadsheet",
+          "body": "<p>In <strong>Settings</strong>, brew export to CSV lets you analyze records in a spreadsheet. It is an analysis export, not a full backup with photos or a restore file. To protect your journal, use a <a href=\"../backups/\">ZIP backup</a>.</p>"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "backups",
+    "es": {
+      "title": "Copias y restauración",
+      "description": "El diario se guarda en el móvil. Elige cómo conservar otra copia y entiende qué ocurre al restaurarla.",
+      "sections": [
+        {
+          "id": "zip",
+          "title": "Guarda una copia completa con fotos",
+          "body": "<ol><li>Abre <strong>Ajustes → Compartir copia de seguridad</strong>.</li><li>Elige dónde guardar o enviar el archivo ZIP desde la hoja de Android.</li><li>Comprueba que el archivo está en el destino y conserva una copia fuera del teléfono si quieres poder recuperarla al perderlo.</li></ol><p>El ZIP contiene el diario y sus fotos. Un CSV sirve para análisis y un JSON suelto no lleva los archivos de imagen. Para una copia completa, conserva el ZIP.</p>"
+        },
+        {
+          "id": "automatic",
+          "title": "Distingue copias internas y carpeta diaria",
+          "body": "<dl><dt>Copias internas</dt><dd>Ayudan a recuperar el diario en el mismo dispositivo. No contienen una copia independiente de las fotos y se pierden al desinstalar la app o borrar su almacenamiento.</dd><dt>Carpeta de copias diarias</dt><dd>Se elige en Ajustes con el selector de Android. Guarda ZIP completos con fotos y conserva las 14 copias diarias más recientes. El recordatorio de Inicio te propone guardar cuando hay cambios; también puedes pulsar <strong>Guardar copia ahora</strong>.</dd></dl><p>Las copias de la carpeta permanecen al desinstalar HolyBeans, pero una carpeta en el mismo teléfono no protege frente a perder ese teléfono. Si Android deja de permitir el acceso, vuelve a seleccionarla.</p>"
+        },
+        {
+          "id": "drive",
+          "title": "Activa las copias en Google Drive",
+          "body": "<ol><li>Abre <strong>Ajustes → Copia de seguridad en Google Drive</strong>.</li><li>Pulsa <strong>Activar con Google</strong> y elige la cuenta que quieres usar.</li><li>Pulsa <strong>Crear copia ahora</strong> y comprueba la fecha de la última copia completada.</li></ol><p>Drive intenta copiar los cambios al abrir la app o pasarla a segundo plano. Puedes seguir utilizando el diario durante la subida y sin conexión. Guardar una preparación no garantiza que ya exista una copia nueva en Drive.</p><p>Se conservan las cinco últimas copias de cada dispositivo. <strong>Son copias independientes: los diarios de dos móviles no se fusionan ni se actualizan entre sí automáticamente.</strong> Android puede interrumpir una subida al cerrar la app; comprueba la fecha si necesitas asegurarte de que terminó.</p><p>Drive usa el espacio privado de HolyBeans, no tus otros documentos. Desactivar las copias conserva las que ya existen. Los detalles de desconexión y borrado están en la <a href=\"../../\">política de privacidad</a>.</p>"
+        },
+        {
+          "id": "restore",
+          "title": "Restaura conociendo el efecto",
+          "body": "<p><strong>Restaurar sustituye el diario completo del teléfono; no añade solo las entradas que faltan.</strong> Antes, exporta un ZIP del diario que quieres conservar.</p><ol><li>Para un archivo, abre <strong>Ajustes → Restaurar copia de seguridad</strong> y selecciona el ZIP.</li><li>Para Drive, abre <strong>Ver copias para restaurar</strong> y elige la copia por fecha y dispositivo.</li><li>Revisa el resumen y confirma solo si es el diario que quieres recuperar.</li><li>Al terminar, comprueba cafés, preparaciones y fotos.</li></ol><p>La restauración de Drive guarda y verifica antes una copia local de seguridad y conserva los ajustes locales del destino. También permite seleccionar versiones de la antigua sincronización.</p>"
+        },
+        {
+          "id": "import",
+          "title": "Si vienes de BeanConqueror",
+          "body": "<p>Usa la opción específica <strong>Importar de BeanConqueror</strong> en Ajustes y sigue la preparación del archivo que indica la pantalla. Revisa el resumen antes de confirmar.</p><p>Esa importación añade datos mediante su propio flujo; no es la restauración de una copia HolyBeans. Guarda antes un ZIP y revisa existencias, fotos y preparaciones al terminar.</p>"
+        }
+      ]
+    },
+    "en": {
+      "title": "Backups and restore",
+      "description": "Your journal is saved on your phone. Choose how to keep another copy and understand what restoring does.",
+      "sections": [
+        {
+          "id": "zip",
+          "title": "Save a full backup with photos",
+          "body": "<ol><li>Open <strong>Settings → Share backup</strong>.</li><li>Choose where to save or send the ZIP through Android's share sheet.</li><li>Check that the file reached its destination. Keep a copy outside the phone if you want to recover it after losing the device.</li></ol><p>The ZIP includes the journal and photos. A CSV is for analysis, and a standalone JSON does not carry image files. Keep the ZIP for a full backup.</p>"
+        },
+        {
+          "id": "automatic",
+          "title": "Distinguish internal copies from the daily folder",
+          "body": "<dl><dt>Internal backups</dt><dd>Help recover the journal on the same device. They do not contain an independent photo backup and are lost when you uninstall the app or clear its storage.</dd><dt>Daily copy folder</dt><dd>Choose it in Settings through Android's picker. It stores full ZIPs with photos and keeps the 14 most recent daily copies. A Home reminder offers to save when there are changes; you can also tap <strong>Save a copy now</strong>.</dd></dl><p>Folder copies remain after uninstalling HolyBeans, but a folder on the same phone does not protect against losing that phone. If Android no longer permits access, select the folder again.</p>"
+        },
+        {
+          "id": "drive",
+          "title": "Enable Google Drive backups",
+          "body": "<ol><li>Open <strong>Settings → Google Drive backup</strong>.</li><li>Tap <strong>Enable with Google</strong> and choose the account you want to use.</li><li>Tap <strong>Back up now</strong> and check the last completed backup date.</li></ol><p>Drive tries to back up changes when you open the app or move it to the background. You can keep using your journal during uploads and offline. Saving a brew does not guarantee a new Drive backup already exists.</p><p>The latest five backups from each device are kept. <strong>These are independent backups: journals on two phones do not merge or update each other automatically.</strong> Android may interrupt an upload when the app closes; check the date when you need to be sure it finished.</p><p>Drive uses HolyBeans' private app storage, not your other documents. Turning backups off keeps existing copies. See the <a href=\"../../\">privacy policy</a> for disconnection and deletion details.</p>"
+        },
+        {
+          "id": "restore",
+          "title": "Understand what restoring does",
+          "body": "<p><strong>Restoring replaces the entire journal on this phone; it does not just add missing entries.</strong> First export a ZIP of the journal you want to keep.</p><ol><li>For a file, open <strong>Settings → Restore backup</strong> and select the ZIP.</li><li>For Drive, open <strong>Browse backups to restore</strong> and choose a copy by date and device.</li><li>Review the summary and confirm only if it is the journal you want to recover.</li><li>Afterwards, check coffees, brews and photos.</li></ol><p>Drive restoration first saves and verifies a local safety copy and preserves the destination's local settings. You can also select versions from the previous synchronization system.</p>"
+        },
+        {
+          "id": "import",
+          "title": "If you are coming from BeanConqueror",
+          "body": "<p>Use the dedicated <strong>Import from BeanConqueror</strong> option in Settings and follow its file-preparation instructions. Review the summary before confirming.</p><p>This import adds data through its own workflow; it is different from restoring a HolyBeans backup. Save a ZIP first and review stock, photos and brews afterwards.</p>"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "labels",
+    "es": {
+      "title": "Imprime etiquetas",
+      "description": "Prepara una etiqueta para un café o una porción congelada con una impresora Niimbot compatible.",
+      "sections": [
+        {
+          "id": "support",
+          "title": "Comprueba el modelo",
+          "body": "<p>La impresión Niimbot es experimental. La compatibilidad depende del modelo, firmware y papel. El catálogo de tu versión de HolyBeans es la referencia para seleccionar la impresora; modelos parecidos no son necesariamente intercambiables.</p><p>Se han confirmado primeras impresiones con D110, B1 y B1 Pro. Los perfiles B21, B2 y B2 Pro requieren validación física adicional. Esa primera confirmación no garantiza todos los tamaños o variantes.</p>"
+        },
+        {
+          "id": "prepare",
+          "title": "Prepara el diseño",
+          "body": "<ol><li>Abre el menú del café y pulsa <strong>Imprimir etiqueta</strong>.</li><li>Elige el modelo exacto y el tamaño del papel instalado.</li><li>Selecciona los datos del café o de la porción congelada y ajusta la plantilla.</li><li>Revisa la vista previa, los saltos de línea y el tamaño del texto. Si añades una imagen, comprueba su contraste.</li></ol><p>La etiqueta es monocroma. Un diseño que se ve bien en la pantalla puede necesitar menos contenido para ser legible en un papel pequeño.</p>"
+        },
+        {
+          "id": "print",
+          "title": "Conecta e imprime",
+          "body": "<ol><li>Enciende la impresora, comprueba el papel y desconéctala de la app Niimbot u otros móviles.</li><li>Busca y conecta la impresora desde la pantalla de etiquetas.</li><li>Comprueba de nuevo modelo, papel y vista previa. Pulsa imprimir cuando estés listo.</li><li>Revisa la etiqueta física aunque la impresora confirme el trabajo.</li></ol><p>HolyBeans envía el trabajo cuando tú lo solicitas. No calibra la impresora, actualiza su firmware ni cambia ajustes ajenos al trabajo.</p>"
+        },
+        {
+          "id": "uncertain",
+          "title": "Si no se confirma la impresión",
+          "body": "<p>Comprueba primero si salió una etiqueta. Revisa tapa, papel y batería antes de reconectar. Un mensaje de error puede significar que no llegó la confirmación aunque el trabajo sí se imprimiera.</p><p>Repite el trabajo solo después de comprobar el resultado. Si el problema continúa, anota modelo, firmware si lo conoces y dimensiones del papel para pedir ayuda.</p>"
+        }
+      ]
+    },
+    "en": {
+      "title": "Print labels",
+      "description": "Prepare a label for a coffee or frozen portion using a compatible Niimbot printer.",
+      "sections": [
+        {
+          "id": "support",
+          "title": "Check the model",
+          "body": "<p>Niimbot printing is experimental. Compatibility depends on model, firmware and paper. Use the model list in your version of HolyBeans to select the printer; similar names are not necessarily interchangeable.</p><p>First prints have been confirmed with D110, B1 and B1 Pro. B21, B2 and B2 Pro profiles need further physical validation. An initial confirmation does not guarantee every size or variant.</p>"
+        },
+        {
+          "id": "prepare",
+          "title": "Prepare the design",
+          "body": "<ol><li>Open the coffee menu and tap <strong>Print label</strong>.</li><li>Select the exact model and installed paper size.</li><li>Choose coffee or frozen-portion information and adjust the template.</li><li>Review the preview, line breaks and text size. Check contrast if you include an image.</li></ol><p>Labels are monochrome. A design that looks good on screen may need less content to remain readable on small paper.</p>"
+        },
+        {
+          "id": "print",
+          "title": "Connect and print",
+          "body": "<ol><li>Turn on the printer, check its paper and disconnect it from the Niimbot app or other phones.</li><li>Search for and connect the printer from the label screen.</li><li>Recheck model, paper and preview. Tap print when you are ready.</li><li>Inspect the physical label even if the printer confirms the job.</li></ol><p>HolyBeans sends a print job when you request it. It does not calibrate the printer, update firmware or change settings unrelated to the job.</p>"
+        },
+        {
+          "id": "uncertain",
+          "title": "If printing is not confirmed",
+          "body": "<p>First check whether a label came out. Check the cover, paper and battery before reconnecting. An error can mean the confirmation was lost even though the job printed.</p><p>Repeat the job only after checking the outcome. If the problem continues, note the model, firmware if known and paper dimensions when asking for help.</p>"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "troubleshooting",
+    "es": {
+      "title": "Resuelve un problema",
+      "description": "Empieza por el síntoma y comprueba el paso correspondiente antes de cambiar tus datos.",
+      "sections": [
+        {
+          "id": "missing",
+          "title": "No encuentro un café o una preparación",
+          "body": "<p>Borra la búsqueda, revisa los filtros y consulta los archivados. Si archivaste un café, sus preparaciones activas también quedaron archivadas. Recupera el café para volver a trabajar con él.</p><p>Si el problema comenzó tras una restauración, comprueba la fecha y procedencia de la copia. Guarda el diario actual antes de restaurar otro archivo.</p>"
+        },
+        {
+          "id": "stock",
+          "title": "Las existencias no coinciden",
+          "body": "<p>Comprueba el lote, las porciones congeladas y las dosis de las últimas preparaciones. Disponible y congelado son cantidades distintas. Archivar una preparación no devuelve su consumo.</p><p>Para registrar lo que has pesado realmente, utiliza <strong>Ajustar existencias → Corrección por pesada</strong>. Para un regalo o pérdida, elige su motivo. Consulta la <a href=\"../beans/#adjust\">guía de existencias</a> antes de corregir.</p>"
+        },
+        {
+          "id": "bluetooth",
+          "title": "El dispositivo no aparece o no da lecturas",
+          "body": "<ol><li>Comprueba que el modelo está admitido por tu versión y que tiene batería.</li><li>Enciéndelo cerca del móvil y desconéctalo de otras apps y teléfonos.</li><li>Revisa Bluetooth y los permisos de dispositivos cercanos que pide Android; algunas versiones antiguas requieren ubicación para buscar.</li><li>Vuelve a buscar desde Ajustes y comprueba si llegan lecturas.</li></ol><p>Si conecta pero no actualiza el peso, anota el modelo y firmware. No todos los firmwares tienen el mismo comportamiento. Puedes seguir registrando pesos manualmente. Para fallos de impresión, sigue <a href=\"../labels/#uncertain\">esta comprobación antes de repetir el trabajo</a>.</p>"
+        },
+        {
+          "id": "drive",
+          "title": "Drive no termina o el otro móvil está distinto",
+          "body": "<p>Los móviles mantienen diarios independientes. Para recuperar el de otro dispositivo debes seleccionar y restaurar una copia; no hay fusión automática.</p><p>Si falla una copia, comprueba conexión y cuenta, vuelve a la pantalla de Drive y pulsa <strong>Crear copia ahora</strong>. Comprueba la fecha de la última copia completada. Mientras tanto, puedes usar el diario y exportar un ZIP.</p><p>Si Google rechaza la autorización, conserva una copia local y comunica el mensaje de error. No borres el diario para intentar arreglar la conexión.</p>"
+        },
+        {
+          "id": "photos",
+          "title": "Faltan fotos después de recuperar datos",
+          "body": "<p>Comprueba si restauraste un ZIP completo o un JSON sin imágenes. Las copias internas solo pueden volver a enlazar las fotos que sigan en el teléfono. Si conservas un ZIP con fotos, guarda antes el estado actual y utiliza ese archivo para la recuperación.</p>"
+        },
+        {
+          "id": "support",
+          "title": "Pide ayuda con el contexto necesario",
+          "body": "<p>Indica la versión de HolyBeans desde <strong>Ajustes → Acerca de</strong>, versión de Android, pasos realizados, resultado esperado y mensaje que aparece. Para dispositivos, añade modelo y firmware si lo conoces.</p><p>Si envías una captura, oculta nombres, cuentas, direcciones y notas personales. No adjuntes contraseñas, claves, identificadores Bluetooth ni una copia completa de tu diario para una consulta inicial.</p><p>Contacto: <a href=\"mailto:corteshxn@gmail.com\">corteshxn@gmail.com</a>.</p>"
+        }
+      ]
+    },
+    "en": {
+      "title": "Solve a problem",
+      "description": "Start with the symptom and check the relevant step before changing your data.",
+      "sections": [
+        {
+          "id": "missing",
+          "title": "I cannot find a coffee or brew",
+          "body": "<p>Clear the search, review filters and check archived entries. Archiving a coffee also archives its active brews. Restore the coffee to work with it again.</p><p>If this started after a restore, check the backup date and source. Save your current journal before restoring a different file.</p>"
+        },
+        {
+          "id": "stock",
+          "title": "Stock does not match",
+          "body": "<p>Check the lot, frozen portions and recent brew doses. Available and frozen are different amounts. Archiving a brew does not return its consumption.</p><p>To record an actual measured balance, use <strong>Adjust stock → Weighed correction</strong>. For a gift or loss, select its reason. Read the <a href=\"../beans/#adjust\">stock guide</a> before correcting.</p>"
+        },
+        {
+          "id": "bluetooth",
+          "title": "A device is missing or sends no readings",
+          "body": "<ol><li>Check that your version supports the model and that its battery is charged.</li><li>Turn it on near the phone and disconnect it from other apps and phones.</li><li>Check Bluetooth and Android's requested nearby-device permissions; some older versions need location permission for searching.</li><li>Search again from Settings and check for readings.</li></ol><p>If it connects but weight does not update, note the model and firmware. Different firmware can behave differently. You can keep recording weights manually. For printing errors, follow <a href=\"../labels/#uncertain\">this check before repeating a job</a>.</p>"
+        },
+        {
+          "id": "drive",
+          "title": "Drive does not finish or my other phone differs",
+          "body": "<p>Phones maintain independent journals. To recover another device's journal, select and restore a backup; there is no automatic merge.</p><p>If a backup fails, check your connection and account, return to the Drive screen and tap <strong>Back up now</strong>. Check the last completed backup date. Meanwhile, you can use your journal and export a ZIP.</p><p>If Google rejects authorization, keep a local backup and report the error message. Do not delete your journal to try to fix the connection.</p>"
+        },
+        {
+          "id": "photos",
+          "title": "Photos are missing after recovery",
+          "body": "<p>Check whether you restored a full ZIP or a JSON without images. Internal copies can only relink photos still on the phone. If you have a ZIP with photos, save the current state first, then use that file for recovery.</p>"
+        },
+        {
+          "id": "support",
+          "title": "Ask for help with useful context",
+          "body": "<p>Include your HolyBeans version from <strong>Settings → About</strong>, Android version, steps taken, expected result and the message shown. For devices, include model and firmware if known.</p><p>Hide names, accounts, addresses and personal notes in screenshots. Do not attach passwords, keys, Bluetooth identifiers or a full journal backup for an initial question.</p><p>Contact: <a href=\"mailto:corteshxn@gmail.com\">corteshxn@gmail.com</a>.</p>"
+        }
+      ]
+    }
+  }
+]

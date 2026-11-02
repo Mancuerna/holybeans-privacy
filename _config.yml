@@ -1,0 +1,7 @@
+# Keep maintenance sources out of the published GitHub Pages site.
+exclude:
+  - README.md
+  - PRODUCT.md
+  - tools
+  - _guide
+  - .impeccable

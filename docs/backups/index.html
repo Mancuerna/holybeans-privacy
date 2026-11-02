@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f7f2ec">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Backups and restore · HolyBeans</title>
+  <meta name="description" content="Your journal is saved on your phone. Choose how to keep another copy and understand what restoring does.">
+  <link rel="canonical" href="https://holybeans.jacortes.me/docs/backups/">
+  <link rel="alternate" hreflang="en" href="https://holybeans.jacortes.me/docs/backups/">
+  <link rel="alternate" hreflang="es" href="https://holybeans.jacortes.me/es/docs/backups/">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/guide.css">
+</head>
+<body class="guide-site" id="top">
+  <a class="skip" href="#content">Skip to content</a>
+  <div class="wrap">
+    <header class="site-header">
+      <a class="brand" href="/home/"><span class="bean" aria-hidden="true"><span class="halo"></span></span>HolyBeans</a>
+      <nav aria-label="Main navigation"><a href="/home/">Home</a><a href="/docs/">User guide</a><a href="/">Privacy</a><a href="/terms/">Terms</a><a href="/es/docs/backups/" lang="es" hreflang="es">Español</a></nav>
+    </header>
+    <details class="mobile-guide-menu"><summary>Explore the guide</summary><nav aria-label="Guide chapters"><ul><li><a href="/docs/">All chapters</a></li><li><a href="/docs/getting-started/">Your first brew</a></li>
+<li><a href="/docs/beans/">Coffees, lots and freezer</a></li>
+<li><a href="/docs/brewing/">Recipes and brews</a></li>
+<li><a href="/docs/equipment/">Equipment, water and connections</a></li>
+<li><a href="/docs/tasting/">Cupping sessions</a></li>
+<li><a href="/docs/cafes/">Coffee away from home</a></li>
+<li><a href="/docs/statistics/">Read your statistics</a></li>
+<li><a href="/docs/backups/" aria-current="page">Backups and restore</a></li>
+<li><a href="/docs/labels/">Print labels</a></li>
+<li><a href="/docs/troubleshooting/">Solve a problem</a></li></ul></nav></details>
+    <div class="guide-layout">
+      <aside class="guide-sidebar"><nav aria-label="Guide chapters"><p>User guide</p><ul><li><a href="/docs/">All chapters</a></li><li><a href="/docs/getting-started/">Your first brew</a></li>
+<li><a href="/docs/beans/">Coffees, lots and freezer</a></li>
+<li><a href="/docs/brewing/">Recipes and brews</a></li>
+<li><a href="/docs/equipment/">Equipment, water and connections</a></li>
+<li><a href="/docs/tasting/">Cupping sessions</a></li>
+<li><a href="/docs/cafes/">Coffee away from home</a></li>
+<li><a href="/docs/statistics/">Read your statistics</a></li>
+<li><a href="/docs/backups/" aria-current="page">Backups and restore</a></li>
+<li><a href="/docs/labels/">Print labels</a></li>
+<li><a href="/docs/troubleshooting/">Solve a problem</a></li></ul></nav></aside>
+      <main id="content" tabindex="-1">
+        <article>
+          <header class="guide-heading"><h1>Backups and restore</h1><p class="lead">Your journal is saved on your phone. Choose how to keep another copy and understand what restoring does.</p></header>
+          <nav class="page-contents" aria-label="On this page"><p>On this page</p><ul><li><a href="#zip">Save a full backup with photos</a></li><li><a href="#automatic">Distinguish internal copies from the daily folder</a></li><li><a href="#drive">Enable Google Drive backups</a></li><li><a href="#restore">Understand what restoring does</a></li><li><a href="#import">If you are coming from BeanConqueror</a></li></ul></nav>
+<section id="zip"><h2>Save a full backup with photos</h2><ol><li>Open <strong>Settings → Share backup</strong>.</li><li>Choose where to save or send the ZIP through Android's share sheet.</li><li>Check that the file reached its destination. Keep a copy outside the phone if you want to recover it after losing the device.</li></ol><p>The ZIP includes the journal and photos. A CSV is for analysis, and a standalone JSON does not carry image files. Keep the ZIP for a full backup.</p></section>
+<section id="automatic"><h2>Distinguish internal copies from the daily folder</h2><dl><dt>Internal backups</dt><dd>Help recover the journal on the same device. They do not contain an independent photo backup and are lost when you uninstall the app or clear its storage.</dd><dt>Daily copy folder</dt><dd>Choose it in Settings through Android's picker. It stores full ZIPs with photos and keeps the 14 most recent daily copies. A Home reminder offers to save when there are changes; you can also tap <strong>Save a copy now</strong>.</dd></dl><p>Folder copies remain after uninstalling HolyBeans, but a folder on the same phone does not protect against losing that phone. If Android no longer permits access, select the folder again.</p></section>
+<section id="drive"><h2>Enable Google Drive backups</h2><ol><li>Open <strong>Settings → Google Drive backup</strong>.</li><li>Tap <strong>Enable with Google</strong> and choose the account you want to use.</li><li>Tap <strong>Back up now</strong> and check the last completed backup date.</li></ol><p>Drive tries to back up changes when you open the app or move it to the background. You can keep using your journal during uploads and offline. Saving a brew does not guarantee a new Drive backup already exists.</p><p>The latest five backups from each device are kept. <strong>These are independent backups: journals on two phones do not merge or update each other automatically.</strong> Android may interrupt an upload when the app closes; check the date when you need to be sure it finished.</p><p>Drive uses HolyBeans' private app storage, not your other documents. Turning backups off keeps existing copies. See the <a href="../../">privacy policy</a> for disconnection and deletion details.</p></section>
+<section id="restore"><h2>Understand what restoring does</h2><p><strong>Restoring replaces the entire journal on this phone; it does not just add missing entries.</strong> First export a ZIP of the journal you want to keep.</p><ol><li>For a file, open <strong>Settings → Restore backup</strong> and select the ZIP.</li><li>For Drive, open <strong>Browse backups to restore</strong> and choose a copy by date and device.</li><li>Review the summary and confirm only if it is the journal you want to recover.</li><li>Afterwards, check coffees, brews and photos.</li></ol><p>Drive restoration first saves and verifies a local safety copy and preserves the destination's local settings. You can also select versions from the previous synchronization system.</p></section>
+<section id="import"><h2>If you are coming from BeanConqueror</h2><p>Use the dedicated <strong>Import from BeanConqueror</strong> option in Settings and follow its file-preparation instructions. Review the summary before confirming.</p><p>This import adds data through its own workflow; it is different from restoring a HolyBeans backup. Save a ZIP first and review stock, photos and brews afterwards.</p></section><nav class="chapter-pagination" aria-label="Guide chapters"><div><span>Previous</span><a href="/docs/statistics/">Read your statistics</a></div><div><span>Next</span><a href="/docs/labels/">Print labels</a></div></nav>
+          <div class="guide-edition"><p>Reviewed November 2, 2026</p><p>This edition covers features introduced through HolyBeans 1.1.17. Availability and labels may differ in earlier versions. Experimental connections are identified in their chapters.</p><a href="#top">Back to top</a></div>
+        </article>
+      </main>
+    </div>
+    <footer><p>© 2026 HolyBeans · CaffeinatedDev</p><p><a href="/home/">Home</a> · <a href="/docs/">User guide</a> · <a href="/">Privacy</a> · <a href="/terms/">Terms</a></p></footer>
+  </div>
+</body>
+</html>
