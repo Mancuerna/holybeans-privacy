@@ -35,6 +35,10 @@ python3 -m http.server 8765 --bind 127.0.0.1
 
 Visit `http://127.0.0.1:8765/es/docs/` and `/docs/`. Serve from the repository root:
 guide links use the domain root, matching the existing custom-domain hosting.
+The `CI result` GitHub Actions check runs generation consistency, site validation
+and whitespace checks on pull requests and `main`. GitHub Pages publishes merged
+changes from `main`.
+
 The checker verifies local links, anchors, canonical URLs, heading hierarchy,
 languages and translation coverage. GitHub Pages excludes maintenance sources
 through `_config.yml`.
@@ -54,13 +58,26 @@ come from an isolated demonstration journal and be reviewed before publication.
 
 Document app behavior and actual control labels; do not copy internal handoffs
 or another application's prose. Update the edition note when changing feature
-coverage. The initial guide covers features introduced through 1.1.17 and marks
+coverage. The current guide covers features introduced through 1.10.0 and marks
 experimental device support. It does not claim to document every app feature.
+The coverage review includes extraction profiles and live guides, portafilter
+tares, photo overlays, yearly recap cards, scale and printer additions, machine
+imports, catalog search and recovery workflows.
 
 Drive now provides independent per-device backups, with explicit restoration,
 not automatic journal synchronization or merging. Keep homepage, privacy,
 terms and guide consistent. Disabling uploads, revoking permission and deleting
 remote data are different actions.
+
+## Keeping coverage current
+
+When the app adds or changes a user workflow, compare its release notes and
+actual UI labels in [the app repository](https://github.com/Mancuerna/holybeans-public)
+with the affected chapters in both languages. Update existing instructions,
+compatibility limits and index shortcuts together, then regenerate HTML and run
+the checks above. Keep the edition version and review date in
+`tools/build_guide.py` current only after reviewing that coverage. A guide edition
+does not establish whether a release is available to every Google Play user.
 
 ## Design review
 

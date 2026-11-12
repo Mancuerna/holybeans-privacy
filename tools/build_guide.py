@@ -15,24 +15,40 @@ CHAPTERS = json.loads((ROOT / '_guide/chapters.json').read_text())
 TEXT = {
     'es': dict(guide='Guía de usuario', home='Inicio', privacy='Privacidad', terms='Condiciones',
         other='English', skip='Ir al contenido', nav='Navegación principal', chapters='Capítulos de la guía',
-        menu='Explorar la guía', contents='En esta página', updated='Revisado el 2 de noviembre de 2026',
+        menu='Explorar la guía', contents='En esta página', updated='Revisado el 12 de noviembre de 2026',
         prev='Anterior', next='Siguiente', top='Volver arriba', index='Todos los capítulos',
         description='Aprende a registrar cafés y preparaciones, organizar tus existencias y conservar tu diario.',
         intro='Desde tu primera taza hasta las copias de seguridad. Elige lo que quieres hacer y sigue los pasos con la app a mano.',
         start='Empieza por tu primera preparación',
-        version='Esta edición cubre funciones incorporadas hasta HolyBeans 1.1.17. La disponibilidad y los nombres pueden variar en versiones anteriores. Las conexiones experimentales se indican en su capítulo.',
+        version='Esta edición cubre funciones incorporadas hasta HolyBeans 1.10.0. La disponibilidad y los nombres pueden variar en versiones anteriores. Las conexiones experimentales se indican en su capítulo.',
+        recent='Novedades que puedes probar',
+        recentlinks=[('equipment/#profiles', 'Crea y edita perfiles de extracción'),
+            ('brewing/#assistant', 'Sigue caudal y presión en directo'),
+            ('brewing/#dose', 'Pesa la dosis con el portafiltro'),
+            ('brewing/#share', 'Comparte fotos con datos y gráficos'),
+            ('statistics/#year', 'Recorre y comparte tu año en café'),
+            ('equipment/#scale', 'Conecta Timemore Dot y captura dosis BOOKOO'),
+            ('labels/#support', 'Consulta impresoras y cinta P12 compatibles')],
         help='¿Algo no funciona?', helptext='Comprueba filtros, conexiones y copias antes de modificar tus datos.',
         helplink='Busca el síntoma y cómo resolverlo',
         exampletitle='Una dosis, un registro', exampletext='Ejemplo ficticio: tienes 250 g disponibles y guardas una preparación de 15 g. Quedan 235 g. Archivar esa preparación conserva el consumo.',
         examplelink='Entiende tus existencias'),
     'en': dict(guide='User guide', home='Home', privacy='Privacy', terms='Terms',
         other='Español', skip='Skip to content', nav='Main navigation', chapters='Guide chapters',
-        menu='Explore the guide', contents='On this page', updated='Reviewed November 2, 2026',
+        menu='Explore the guide', contents='On this page', updated='Reviewed November 12, 2026',
         prev='Previous', next='Next', top='Back to top', index='All chapters',
         description='Learn to record coffees and brews, organize your stock and keep your journal safe.',
         intro='From your first cup to your backups. Choose what you want to do and follow the steps with the app at hand.',
         start='Start with your first brew',
-        version='This edition covers features introduced through HolyBeans 1.1.17. Availability and labels may differ in earlier versions. Experimental connections are identified in their chapters.',
+        version='This edition covers features introduced through HolyBeans 1.10.0. Availability and labels may differ in earlier versions. Experimental connections are identified in their chapters.',
+        recent='New things to try',
+        recentlinks=[('equipment/#profiles', 'Create and edit extraction profiles'),
+            ('brewing/#assistant', 'Follow live flow and pressure'),
+            ('brewing/#dose', 'Weigh your dose with the portafilter'),
+            ('brewing/#share', 'Share photos with details and charts'),
+            ('statistics/#year', 'Explore and share your coffee year'),
+            ('equipment/#scale', 'Connect Timemore Dot and capture BOOKOO doses'),
+            ('labels/#support', 'Check supported printers and P12 tape')],
         help='Something not working?', helptext='Check filters, connections and backups before changing your data.',
         helplink='Find the symptom and how to resolve it',
         exampletitle='One dose, one record', exampletext='Fictional example: you have 250 g available and save a 15 g brew. You have 235 g left. Archiving that brew preserves its consumption.',
@@ -68,6 +84,7 @@ def render(lang, chapter=None):
         body+='</nav>'
     else:
         body='<p class="guide-start">'+link(guide_url(lang,'getting-started'),t['start'])+'</p>'
+        body+='<section class="guide-updates" aria-labelledby="guide-updates-title"><h2 id="guide-updates-title">'+t['recent']+'</h2><ul>'+''.join('<li>'+link(guide_url(lang)+target,label)+'</li>' for target,label in t['recentlinks'])+'</ul></section>'
         body+='<div class="guide-chapters">'+''.join('<section><h2>'+link(guide_url(lang,p['slug']),p[lang]['title'])+'</h2><p>'+escape(p[lang]['description'])+'</p></section>' for p in CHAPTERS)+'</div>'
         body+='<section class="worked-example"><h2>'+t['exampletitle']+'</h2><p>'+t['exampletext']+'</p><p>'+link(guide_url(lang,'beans'),t['examplelink'])+'</p></section>'
         body+='<section><h2>'+t['help']+'</h2><p>'+t['helptext']+'</p><p>'+link(guide_url(lang,'troubleshooting'),t['helplink'])+'</p></section>'

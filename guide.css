@@ -44,6 +44,7 @@
 .guide-start { margin: 28px 0 32px; }
 .guide-start a { display: inline-block; background: var(--accent); color: var(--surface); padding: 12px 20px; border-radius: 6px; font-weight: 650; text-decoration: none; }
 .guide-start a:hover { background: var(--text); }
+.guide-updates { margin-bottom: 32px; }
 .guide-chapters { border-top: 1px solid var(--border); }
 .guide-chapters section { padding: 24px 0; border-bottom: 1px solid var(--border); }
 .guide-chapters h2 { margin-bottom: 8px; font-size: 1.25rem; }

@@ -76,6 +76,11 @@
           "body": "<p>La ficha del café reúne el nombre, tostador, origen y tus notas. Usa sus lotes para distinguir compras y fechas de tueste. Al preparar, selecciona el lote del que sale la dosis si hay varios disponibles.</p><p>En <strong>Granos</strong> puedes buscar, filtrar y cambiar la vista. La agrupación por tostador y el calendario de frescura ayudan a localizar bolsas; las estimaciones de frescura son orientativas, no una medida del sabor.</p>"
         },
         {
+          "id": "catalog",
+          "title": "Añade un café desde Loffee Labs",
+          "body": "<p>En el formulario de café, abre <strong>Buscar en Loffee Labs</strong> y configura tu clave API de ese servicio. Busca por nombre, tostador u origen, elige un resultado y pulsa <strong>Revisar y añadir</strong>. Confirma los gramos de tu bolsa, las fechas y el precio que pagaste antes de guardar; la disponibilidad del catálogo depende de tu cuenta.</p><p>La búsqueda necesita conexión y envía el texto consultado a Loffee Labs; no envía tu diario. Puedes elegir si añades la foto del catálogo. La clave se guarda protegida en ese dispositivo y queda fuera de las copias: tendrás que configurarla de nuevo en otro móvil. También puedes sustituirla o eliminarla desde los ajustes de la búsqueda.</p>"
+        },
+        {
           "id": "stock",
           "title": "Comprado, disponible y congelado",
           "body": "<p>La cantidad comprada sirve como referencia de compra y coste. El café disponible es lo que puedes usar sin recurrir a una porción congelada. El congelado se conserva por separado.</p><p>Guardar una preparación con dosis descuenta existencias del origen elegido. Archivar una preparación no devuelve café. Si falta una cantidad, la app mantiene ese dato como desconocido.</p>"
@@ -107,6 +112,11 @@
           "body": "<p>A coffee holds its name, roaster, origin and your notes. Use lots to distinguish purchases and roast dates. When brewing, choose the lot supplying the dose if several are available.</p><p>In <strong>Beans</strong>, search, filter and change the view. Grouping by roaster and the freshness calendar help you find bags; freshness estimates are guidance, not a measurement of taste.</p>"
         },
         {
+          "id": "catalog",
+          "title": "Add a coffee from Loffee Labs",
+          "body": "<p>In the coffee form, open <strong>Search Loffee Labs</strong> and configure your API key for that service. Search by name, roaster or origin, choose a result and tap <strong>Review and add</strong>. Confirm your bag’s weight, dates and purchase price before saving; catalog availability depends on your account.</p><p>Searching requires a connection and sends your query to Loffee Labs; it does not send your journal. You can choose whether to add the catalog photo. The key is stored securely on that device and excluded from backups: configure it again on another phone. You can also replace or delete it in the search settings.</p>"
+        },
+        {
           "id": "stock",
           "title": "Purchased, available and frozen",
           "body": "<p>The purchased amount is a reference for buying and cost. Available coffee can be used without drawing from a frozen portion. Frozen stock is tracked separately.</p><p>Saving a brew with a dose deducts stock from the chosen source. Archiving a brew does not return coffee. When an amount is missing, the app keeps it unknown.</p>"
@@ -133,7 +143,7 @@
     "slug": "brewing",
     "es": {
       "title": "Recetas y preparaciones",
-      "description": "Registra lo que hiciste y utiliza el resultado para decidir qué repetir o cambiar.",
+      "description": "Registra dosis y resultados, sigue perfiles en directo y comparte la taza con tus fotos.",
       "sections": [
         {
           "id": "recipe",
@@ -141,9 +151,19 @@
           "body": "<p>Elige café, lote y método antes de revisar la receta. Anota dosis, molino y ajuste; añade temperatura, herramientas y agua si te ayudan a repetirla.</p><p>En espresso, el ratio compara dosis y bebida obtenida. En filtro o inmersión, compara dosis y agua añadida. La bebida final y el agua añadida no son intercambiables.</p><p>Ejemplos ficticios: 18 g de café y 36 g de espresso dan 1:2; 15 g de café y 240 g de agua de filtro dan 1:16.</p>"
         },
         {
+          "id": "dose",
+          "title": "Pesa la dosis con el portafiltro",
+          "body": "<ol><li>En <strong>Equipo → Portafiltros</strong>, guarda el peso vacío del portafiltro con su cesta. Puedes guardar varias combinaciones y elegir la habitual del método.</li><li>En una preparación de espresso, abre <strong>Pesar con portafiltro</strong> y selecciona la combinación utilizada.</li><li>Pon a cero la báscula vacía y pesa el portafiltro con café. Escribe el peso total o cópialo desde la báscula conectada.</li><li>Revisa la resta y pulsa <strong>Usar como dosis</strong>.</li></ol><p>Ejemplo ficticio: 558 g en total menos 540 g de portafiltro y cesta dan una dosis de 18 g. Al repetir una preparación se utiliza la tara actual guardada del portafiltro; revisa la combinación si has cambiado de cesta.</p>"
+        },
+        {
           "id": "timer",
           "title": "Tiempo, curva y vertidos",
-          "body": "<p>Puedes registrar tiempos manualmente o usar el cronómetro. Sin báscula conectada, los controles de filtro aparecen junto al reparto de agua; con báscula, están en la gráfica. Detén el cronómetro al terminar y revisa el resultado antes de guardar.</p><p>El <strong>Asistente de vertido</strong> permite repartir el agua entre blooms y vertidos. Ajusta dosis, ratio, cantidades y esperas. Un reparto planificado describe la receta; una curva recoge las lecturas disponibles del dispositivo. Comprueba cuál estás consultando.</p>"
+          "body": "<p>Puedes registrar tiempos manualmente o usar el cronómetro. Sin báscula conectada, los controles de filtro aparecen junto al reparto de agua; con báscula, están en la gráfica. Detén el cronómetro al terminar y revisa el resultado antes de guardar.</p><p>El <strong>Asistente de vertido</strong> permite repartir el agua entre blooms y vertidos. Ajusta dosis, ratio, cantidades y esperas. Un reparto planificado describe la receta; una curva recoge las lecturas disponibles del dispositivo. Comprueba cuál estás consultando.</p><p>Con una báscula compatible, iniciar su cronómetro abre la gráfica en directo. Espera a que termine la tara antes de empezar a verter. Al terminar una preparación de filtro, revisa también el peso final de bebida.</p><p><strong>Reiniciar peso y tiempo</strong> detiene la extracción y descarta el registro en curso antes de volver a cero; confirma solo si quieres empezar de nuevo. Para completar preparaciones antiguas, <strong>Ajustes → Blooms y vertidos desde las curvas</strong> recupera los detalles que faltan de curvas de báscula utilizables y conserva los contadores y detalles de fases existentes.</p>"
+        },
+        {
+          "id": "assistant",
+          "title": "Sigue un perfil durante el espresso",
+          "body": "<ol><li>Prepara una nueva extracción de espresso y conecta la báscula para caudal, el sensor para presión o ambos.</li><li>Antes de iniciar el reloj, abre <strong>Asistente de extracción → Perfiles de extracción</strong>, elige un perfil y pulsa <strong>Usar en esta extracción</strong>. También puedes elegir un tiro guardado como referencia. Al aplicar un perfil se rellenan la dosis, la temperatura y, si existe, el peso previsto u objetivo: revísalos para tu café.</li><li>Inicia el cronómetro en el mismo momento del proceso que en la referencia. El tiempo incluye la preinfusión.</li><li>Sigue las referencias y las lecturas en directo. Con ambas curvas puedes verlas <strong>Juntas</strong> o <strong>Separadas</strong>.</li><li>Detén la extracción y revisa los datos antes de guardar. La preparación conserva el <strong>Perfil utilizado</strong>.</li></ol><p>En la gráfica conjunta, el caudal usa el eje izquierdo en g/s y la presión el derecho en bar. La referencia es discontinua con círculos; la lectura real, continua con rombos. Los huecos indican ausencia de lecturas.</p><p>El caudal se calcula con el peso que llega a la taza; no equivale al caudal de la máquina en ml/s. La tara, las pausas y los cambios bruscos de carga pueden interrumpir el trazo. <strong>El asistente es una guía visual: ajusta y detén la máquina manualmente.</strong> Consulta cómo <a href=\"../equipment/#profiles\">crear y editar perfiles</a>.</p>"
         },
         {
           "id": "repeat",
@@ -158,13 +178,13 @@
         {
           "id": "share",
           "title": "Elige qué muestras y compartes",
-          "body": "<p>En <strong>Ajustes → Parámetros de preparación</strong> eliges qué aparece en el formulario, detalle e historial y qué se comparte. Ocultar un campo no borra sus datos.</p><p>Al compartir una preparación, revisa la vista previa, los campos seleccionados y la foto. En <strong>Ajustes → Plantillas para compartir</strong> puedes preparar tus textos. Compartir una taza no equivale a exportar una copia del diario.</p>"
+          "body": "<p>En <strong>Ajustes → Parámetros de preparación</strong> eliges qué aparece en el formulario, detalle e historial y qué se comparte. Ocultar un campo no borra sus datos.</p><p>Al compartir una preparación, revisa la vista previa, los campos seleccionados y la foto. En <strong>Ajustes → Plantillas para compartir</strong> puedes preparar tus textos. Compartir una taza no equivale a exportar una copia del diario.</p><p>Puedes compartir texto o imagen y copiarlos al portapapeles. Con <strong>Texto sobre foto</strong>, coloca los datos o tu plantilla sobre una foto y ajusta posición, tamaño, color y <strong>Opacidad del fondo</strong>. Los gráficos se colocan en paneles independientes sobre la foto para ajustar su composición. Revisa la legibilidad en la vista previa.</p><p>Las tarjetas también admiten fondo transparente y texto claro u oscuro. La etiqueta <strong>Días desde el tueste</strong> está disponible en las plantillas; comprueba que el lote tenga fecha de tueste.</p>"
         }
       ]
     },
     "en": {
       "title": "Recipes and brews",
-      "description": "Record what you did and use the result to decide what to repeat or change.",
+      "description": "Record doses and results, follow live profiles and share your cup with photos.",
       "sections": [
         {
           "id": "recipe",
@@ -172,9 +192,19 @@
           "body": "<p>Select coffee, lot and method before reviewing the recipe. Record dose, grinder and setting; add temperature, tools and water if they help you repeat it.</p><p>For espresso, ratio compares dose with beverage yield. For filter or immersion, it compares dose with water added. Final beverage and water added are not interchangeable.</p><p>Fictional examples: 18 g coffee and 36 g espresso give 1:2; 15 g coffee and 240 g filter water give 1:16.</p>"
         },
         {
+          "id": "dose",
+          "title": "Weigh the dose with the portafilter",
+          "body": "<ol><li>In <strong>Equipment → Portafilters</strong>, save the empty weight of the portafilter with its basket. You can save several combinations and choose the method’s default.</li><li>In an espresso brew, open <strong>Weigh with portafilter</strong> and select the combination you are using.</li><li>Zero the empty scale and weigh the portafilter with coffee. Enter the total weight or copy it from the connected scale.</li><li>Review the subtraction and tap <strong>Use as dose</strong>.</li></ol><p>Fictional example: 558 g total minus 540 g for the portafilter and basket gives an 18 g dose. Repeating a brew uses the portafilter’s current saved tare; check the combination if you have changed baskets.</p>"
+        },
+        {
           "id": "timer",
           "title": "Time, curves and pours",
-          "body": "<p>Enter times manually or use the timer. Without a connected scale, filter controls sit beside the water breakdown; with a scale, they are in the chart. Stop the timer at the end and review the result before saving.</p><p>The <strong>Pour assistant</strong> divides water between blooms and pours. Adjust dose, ratio, amounts and waits. A planned breakdown describes the recipe; a curve records the readings available from a device. Check which one you are viewing.</p>"
+          "body": "<p>Enter times manually or use the timer. Without a connected scale, filter controls sit beside the water breakdown; with a scale, they are in the chart. Stop the timer at the end and review the result before saving.</p><p>The <strong>Pour assistant</strong> divides water between blooms and pours. Adjust dose, ratio, amounts and waits. A planned breakdown describes the recipe; a curve records the readings available from a device. Check which one you are viewing.</p><p>With a compatible scale, starting its timer opens the live chart. Wait for tare to finish before pouring. After a filter recording, also review the final beverage weight.</p><p><strong>Reset weight and time</strong> stops the extraction and discards the current recording before returning to zero; confirm only if you want to start again. To complete older brews, <strong>Settings → Blooms and pours from curves</strong> fills missing details from usable scale curves while preserving existing phase counts and details.</p>"
+        },
+        {
+          "id": "assistant",
+          "title": "Follow an espresso profile",
+          "body": "<ol><li>Prepare a new espresso and connect a scale for flow, a pressure sensor for pressure, or both.</li><li>Before starting the timer, open <strong>Extraction assistant → Extraction profiles</strong>, choose a profile and tap <strong>Use for this extraction</strong>. You can also choose a saved shot as a reference. Applying a profile fills dose, temperature and, when available, predicted or target weight: review them for your coffee.</li><li>Start the timer at the same point in the process as the reference. Time includes preinfusion.</li><li>Follow the reference and live readings. With both curves, choose <strong>Combined</strong> or <strong>Separate</strong> views.</li><li>Stop the extraction and review the data before saving. The brew retains the <strong>Profile used</strong>.</li></ol><p>In the combined chart, flow uses the left axis in g/s and pressure the right axis in bar. The reference is dashed with circles; live readings are solid with diamonds. Gaps indicate missing readings.</p><p>Flow is calculated from weight reaching the cup; it is not the machine’s flow in ml/s. Tare, pauses and sudden load changes can interrupt the trace. <strong>The assistant is a visual guide: adjust and stop the machine manually.</strong> Learn how to <a href=\"../equipment/#profiles\">create and edit profiles</a>.</p>"
         },
         {
           "id": "repeat",
@@ -189,7 +219,7 @@
         {
           "id": "share",
           "title": "Choose what to show and share",
-          "body": "<p>In <strong>Settings → Brew parameters</strong>, choose what appears in the form, details and history, and what is shared. Hiding a field does not erase its data.</p><p>Before sharing a brew, check the preview, selected fields and photo. Prepare your wording in <strong>Settings → Share templates</strong>. Sharing a cup is different from exporting a journal backup.</p>"
+          "body": "<p>In <strong>Settings → Brew parameters</strong>, choose what appears in the form, details and history, and what is shared. Hiding a field does not erase its data.</p><p>Before sharing a brew, check the preview, selected fields and photo. Prepare your wording in <strong>Settings → Share templates</strong>. Sharing a cup is different from exporting a journal backup.</p><p>You can share text or an image and copy either to the clipboard. With <strong>Text over photo</strong>, place brew details or your template over a photo and adjust position, size, colour and <strong>Background opacity</strong>. Charts appear in separate panels over the photo so you can adjust the composition. Check readability in the preview.</p><p>Cards also support transparent backgrounds and light or dark text. The <strong>Days from roast</strong> tag is available in templates; check that the lot has a roast date.</p>"
         }
       ]
     }
@@ -198,12 +228,17 @@
     "slug": "equipment",
     "es": {
       "title": "Equipo, agua y conexiones",
-      "description": "Organiza tus métodos y conecta dispositivos cuando necesites registrar sus lecturas.",
+      "description": "Organiza métodos, portafiltros y perfiles de extracción; prepara el agua y conecta tus dispositivos.",
       "sections": [
         {
           "id": "catalog",
           "title": "Crea tu catálogo",
-          "body": "<p><strong>Equipo</strong> reúne métodos, molinos, herramientas y agua. Añade solo lo que uses. Asocia herramientas a sus métodos para encontrarlas al preparar; archivar equipo conserva sus usos anteriores.</p><p>Un perfil de agua se puede seleccionar en distintas preparaciones. El nombre utilizado queda registrado, pero editar después la composición del perfil no crea una medición química histórica de cada taza.</p>"
+          "body": "<p><strong>Equipo</strong> reúne métodos, molinos, herramientas y agua. Añade solo lo que uses. Asocia herramientas a sus métodos para encontrarlas al preparar; archivar equipo conserva sus usos anteriores.</p><p>Un perfil de agua se puede seleccionar en distintas preparaciones. El nombre utilizado queda registrado, pero editar después la composición del perfil no crea una medición química histórica de cada taza.</p><p>También encontrarás <strong>Portafiltros</strong> para guardar sus taras y <strong>Perfiles de extracción</strong> para tus curvas objetivo. Los métodos y perfiles de agua que nunca se han utilizado se pueden eliminar; si tienen historial, utiliza el archivo.</p>"
+        },
+        {
+          "id": "profiles",
+          "title": "Crea una biblioteca de perfiles de extracción",
+          "body": "<ol><li>Abre <strong>Equipo → Perfiles de extracción → Crear perfil</strong>. Para partir de un tiro con curva utilizable, abre su detalle y pulsa <strong>Guardar como perfil</strong>.</li><li>Da un nombre al perfil y elige caudal, presión o <strong>Caudal y presión</strong>. Puedes anotar dosis, temperatura, peso objetivo y notas, y elegir el objetivo prioritario cuando hay ambas curvas.</li><li>Arrastra los puntos de la curva o toca una fila para editar tiempo y valor. Usa <strong>Añadir punto</strong>, <strong>Deshacer</strong> y <strong>Rehacer</strong> para ajustar el recorrido.</li><li>Revisa el <strong>Peso previsto</strong> y guarda. <strong>Escalar duración</strong> mueve todos los puntos proporcionalmente, incluida la preinfusión, y cambia el peso previsto.</li></ol><p>El peso previsto es una estimación a partir del caudal, no una medición ni una parada automática; no se calcula si la curva no cubre todo el tiempo. Puedes buscar perfiles, marcar favoritos y duplicarlos antes de experimentar.</p><p>Usa <strong>Compartir perfil JSON</strong> o <strong>Importar perfil JSON</strong> para intercambiar perfiles en el formato de HolyBeans; revisa el editor antes de guardar una importación. No se trata de un archivo para programar la cafetera. La biblioteca y la referencia utilizada en cada tiro se incluyen en las copias del diario. Editar o eliminar un perfil no cambia la referencia conservada en los tiros ya guardados.</p><p>Para utilizarlo durante una preparación, sigue la <a href=\"../brewing/#assistant\">guía del asistente</a>.</p>"
         },
         {
           "id": "water",
@@ -213,7 +248,7 @@
         {
           "id": "scale",
           "title": "Conecta una báscula",
-          "body": "<ol><li>Enciende la báscula y desconéctala de otras apps o móviles.</li><li>Abre <strong>Ajustes → Báscula Bluetooth → Buscar báscula</strong>.</li><li>Concede el permiso que Android solicite para buscar dispositivos y selecciona tu báscula.</li><li>Comprueba que el peso cambia antes de iniciar una preparación.</li></ol><p>Puedes recordar varias básculas; HolyBeans mantiene una conexión activa. Con varias encendidas, prioriza la última utilizada sin sustituir una conexión que ya está activa.</p><p>La app admite BOOKOO y soporte en pruebas para DiFluid Microbalance (V300 o posterior), Microbalance Ti (V010 o posterior) y Acaia Lunar, Pearl, Pearl S y Pyxis. Modelo y firmware importan; aparecer en la lista no garantiza todas las funciones en cada unidad.</p>"
+          "body": "<ol><li>Enciende la báscula y desconéctala de otras apps o móviles.</li><li>Abre <strong>Ajustes → Báscula Bluetooth → Buscar báscula</strong>.</li><li>Concede el permiso que Android solicite para buscar dispositivos y selecciona tu báscula.</li><li>Comprueba que el peso cambia antes de iniciar una preparación.</li></ol><p>Puedes recordar varias básculas; HolyBeans mantiene una conexión activa. Con varias encendidas, prioriza la última utilizada sin sustituir una conexión que ya está activa.</p><p>La app admite BOOKOO y soporte en pruebas para DiFluid Microbalance (V300 o posterior), Microbalance Ti (V010 o posterior) y Acaia Lunar, Pearl, Pearl S y Pyxis. Modelo y firmware importan; aparecer en la lista no garantiza todas las funciones en cada unidad.</p><p><strong>Timemore Dot TES017</strong> admite peso en gramos, tara e inicio, pausa y reinicio del temporizador. Se han comprobado peso y controles con firmware v1.0.4; otros firmwares siguen sin verificar. Acepta el emparejamiento Bluetooth si Android lo solicita. Las lecturas en onzas no se presentan como gramos.</p><p>Con <strong>BOOKOO Themis Ultra</strong> y un formulario de preparación abierto, usa el modo Ratio y pulsa dos veces el botón izquierdo para guardar la dosis pesada y rellenar el campo. Requiere firmware compatible; se ha verificado con 4.0.1. El botón derecho tara la báscula. Puedes seguir introduciendo la dosis a mano.</p>"
         },
         {
           "id": "sensors",
@@ -222,19 +257,24 @@
         },
         {
           "id": "machine",
-          "title": "Consulta una Meticulous",
-          "body": "<p>Configura la conexión de la cafetera en su método y utiliza las opciones de consulta e importación de tiros. El teléfono debe poder acceder a la cafetera por la red configurada.</p><p>HolyBeans consulta datos de la máquina; no inicia extracciones ni cambia perfiles o ajustes. Revisa el tiro importado y su asociación al café antes de guardarlo. Para etiquetas, sigue la <a href=\"../labels/\">guía de impresoras</a>.</p>"
+          "title": "Importa tiros de Meticulous o Gaggimate",
+          "body": "<p>Configura la conexión de la cafetera en su método y utiliza las opciones de consulta e importación de tiros. El teléfono debe poder acceder a la dirección de la máquina en la red local.</p><p><strong>Meticulous</strong> permite consultar el historial e importar extracciones. Para free pour solo se puede leer el último registro desde fuera de la máquina.</p><p><strong>Gaggimate</strong> permite elegir una extracción terminada e importar peso, tiempo, perfil y curva. Su firmware debe ofrecer el historial binario por HTTP. Si el registro no tiene un peso de báscula válido, introduce la bebida manualmente.</p><p>Estas conexiones leen datos: no inician extracciones ni cambian perfiles o ajustes de la máquina. Revisa el tiro y su asociación al café antes de guardarlo. La biblioteca de <a href=\"#profiles\">perfiles de extracción</a> es independiente de los perfiles de la cafetera.</p>"
         }
       ]
     },
     "en": {
       "title": "Equipment, water and connections",
-      "description": "Organize your methods and connect devices when you want to record their readings.",
+      "description": "Organize methods, portafilters and extraction profiles; prepare water and connect your devices.",
       "sections": [
         {
           "id": "catalog",
           "title": "Build your equipment list",
-          "body": "<p><strong>Equipment</strong> groups methods, grinders, tools and water. Add what you use. Associate tools with methods to find them when brewing; archiving equipment preserves its previous uses.</p><p>A water profile can be selected for multiple brews. The name used is recorded, but editing the profile composition later does not create a historical chemical measurement for each cup.</p>"
+          "body": "<p><strong>Equipment</strong> groups methods, grinders, tools and water. Add what you use. Associate tools with methods to find them when brewing; archiving equipment preserves its previous uses.</p><p>A water profile can be selected for multiple brews. The name used is recorded, but editing the profile composition later does not create a historical chemical measurement for each cup.</p><p>You will also find <strong>Portafilters</strong> for saved tares and <strong>Extraction profiles</strong> for target curves. Methods and water profiles that have never been used can be deleted; archive those with history.</p>"
+        },
+        {
+          "id": "profiles",
+          "title": "Build an extraction profile library",
+          "body": "<ol><li>Open <strong>Equipment → Extraction profiles → Create profile</strong>. To start from a shot with a usable curve, open its details and tap <strong>Save as profile</strong>.</li><li>Name the profile and choose flow, pressure or <strong>Flow and pressure</strong>. You can add dose, temperature, target weight and notes, and choose a primary target when both curves are present.</li><li>Drag curve points or tap a row to edit its time and value. Use <strong>Add point</strong>, <strong>Undo</strong> and <strong>Redo</strong> to adjust the shape.</li><li>Review the <strong>Expected yield</strong> and save. <strong>Scale duration</strong> moves all points proportionally, including preinfusion, and changes the predicted weight.</li></ol><p>Predicted weight is an estimate from flow, not a measurement or an automatic stop; it is unavailable if the curve does not cover the full duration. Search profiles, mark favourites and duplicate them before experimenting.</p><p>Use <strong>Share JSON profile</strong> or <strong>Import JSON profile</strong> to exchange profiles in HolyBeans format; review the editor before saving an import. This is not a file for programming the machine. Journal backups include the library and each shot’s reference. Editing or deleting a profile does not change the reference retained by saved shots.</p><p>To use it during a brew, follow the <a href=\"../brewing/#assistant\">assistant walkthrough</a>.</p>"
         },
         {
           "id": "water",
@@ -244,7 +284,7 @@
         {
           "id": "scale",
           "title": "Connect a scale",
-          "body": "<ol><li>Turn on the scale and disconnect it from other apps or phones.</li><li>Open <strong>Settings → Bluetooth scale → Find scale</strong>.</li><li>Grant the device-search permission requested by Android and select your scale.</li><li>Check that weight readings change before starting a brew.</li></ol><p>You can remember several scales; HolyBeans maintains one active connection. If several are on, it prioritizes the last one used without replacing an existing active connection.</p><p>The app supports BOOKOO, with experimental support for DiFluid Microbalance (V300 or later), Microbalance Ti (V010 or later), and Acaia Lunar, Pearl, Pearl S and Pyxis. Model and firmware matter; being listed does not guarantee every feature on every unit.</p>"
+          "body": "<ol><li>Turn on the scale and disconnect it from other apps or phones.</li><li>Open <strong>Settings → Bluetooth scale → Find scale</strong>.</li><li>Grant the device-search permission requested by Android and select your scale.</li><li>Check that weight readings change before starting a brew.</li></ol><p>You can remember several scales; HolyBeans maintains one active connection. If several are on, it prioritizes the last one used without replacing an existing active connection.</p><p>The app supports BOOKOO, with experimental support for DiFluid Microbalance (V300 or later), Microbalance Ti (V010 or later), and Acaia Lunar, Pearl, Pearl S and Pyxis. Model and firmware matter; being listed does not guarantee every feature on every unit.</p><p><strong>Timemore Dot TES017</strong> supports weight in grams, tare and timer start, pause and reset. Weight and controls have been checked with firmware v1.0.4; other firmware remains unverified. Accept Bluetooth pairing if Android requests it. Ounce readings are not presented as grams.</p><p>With <strong>BOOKOO Themis Ultra</strong> and a brew form open, use Ratio mode and double-tap the left button to save the weighed dose and fill the field. Compatible firmware is required; this has been verified with 4.0.1. The right button tares the scale. Manual dose entry remains available.</p>"
         },
         {
           "id": "sensors",
@@ -253,8 +293,8 @@
         },
         {
           "id": "machine",
-          "title": "Read from a Meticulous",
-          "body": "<p>Configure the machine connection in its brew method and use the shot-reading and import options. Your phone must be able to reach the machine over the configured network.</p><p>HolyBeans reads machine data; it does not start shots or change profiles or settings. Review the imported shot and its coffee association before saving. For labels, follow the <a href=\"../labels/\">printer guide</a>.</p>"
+          "title": "Import shots from Meticulous or Gaggimate",
+          "body": "<p>Configure the machine connection in its brewing method, then use the shot browsing and import options. Your phone must be able to reach the machine’s address on the local network.</p><p><strong>Meticulous</strong> supports browsing history and importing extractions. Only the latest free-pour record can be read from outside the machine.</p><p><strong>Gaggimate</strong> lets you choose a finished extraction and import weight, time, profile and curve. Its firmware must expose binary history over HTTP. If the record has no valid scale weight, enter beverage weight manually.</p><p>These connections read data: they do not start extractions or change machine profiles or settings. Review the shot and its coffee association before saving. The <a href=\"#profiles\">extraction profile library</a> is independent of the machine’s profiles.</p>"
         }
       ]
     }
@@ -373,7 +413,7 @@
     "slug": "statistics",
     "es": {
       "title": "Lee tus estadísticas",
-      "description": "Entiende qué cuentan las gráficas y qué datos necesitas para interpretarlas.",
+      "description": "Entiende las gráficas, recorre tu año en café y elige qué tarjetas compartir.",
       "sections": [
         {
           "id": "period",
@@ -391,6 +431,11 @@
           "body": "<p>Una nota ausente no es un cero. Un precio sin registrar impide calcular ese coste. Comprueba cuántos registros aportan información antes de comparar resultados.</p><p>Los resúmenes de tiempo y ratio de espresso y filtro utilizan medianas. El ratio de espresso usa bebida; el de filtro, agua. Las valoraciones medias reflejan tus registros, no una medida objetiva de calidad.</p><p>Toca una barra o un punto para consultar su valor. Usa <a href=\"../brewing/#repeat\">Comparar preparaciones</a> cuando necesites revisar dos tazas concretas.</p>"
         },
         {
+          "id": "year",
+          "title": "Recorre y comparte tu año en café",
+          "body": "<p>Desde <strong>Estadísticas</strong>, abre <strong>Tu año en café</strong> y elige el año. Recorre las historias sobre cafés, orígenes, tostadores, métodos, valoraciones y actividad. <strong>Sobre estos datos</strong> explica qué registros forman el resumen; incluye preparaciones archivadas e importadas y no equivale al número de tazas bebidas.</p><p>Usa <strong>Compartir tarjeta</strong> para una historia o <strong>Compartir mi año</strong> para elegir varias tarjetas y enviarlas como carrusel. Revisa la selección: las tarjetas compartidas no incluyen fotos ni notas personales, pero sí los datos del resumen que muestran. Los gastos registrados y el coste estimado del café son medidas distintas.</p>"
+        },
+        {
           "id": "export",
           "title": "Trabaja con tus datos en una hoja de cálculo",
           "body": "<p>En <strong>Ajustes</strong>, la exportación de preparaciones a CSV permite analizar los registros en una hoja de cálculo. Es una salida para análisis, no una copia completa con fotos ni un archivo de restauración. Para proteger el diario, utiliza el <a href=\"../backups/\">ZIP de copia de seguridad</a>.</p>"
@@ -399,7 +444,7 @@
     },
     "en": {
       "title": "Read your statistics",
-      "description": "Understand what charts count and which data you need to interpret them.",
+      "description": "Understand the charts, explore your coffee year and choose cards to share.",
       "sections": [
         {
           "id": "period",
@@ -415,6 +460,11 @@
           "id": "interpret",
           "title": "Notice what is missing",
           "body": "<p>A missing rating is not zero. A missing price prevents that cost from being calculated. Check how many records contribute information before comparing results.</p><p>Espresso and filter time and ratio summaries use medians. Espresso ratio uses beverage yield; filter ratio uses water. Average ratings reflect your records, not an objective measure of quality.</p><p>Tap a bar or point to inspect its value. Use <a href=\"../brewing/#repeat\">Compare brews</a> to examine two specific cups.</p>"
+        },
+        {
+          "id": "year",
+          "title": "Explore and share your coffee year",
+          "body": "<p>From <strong>Statistics</strong>, open <strong>Your coffee year in review</strong> and choose a year. Browse stories about coffees, origins, roasters, methods, ratings and activity. <strong>About these numbers</strong> explains the records behind the recap; it includes archived and imported brews and does not equal the number of cups you drank.</p><p>Use <strong>Share card</strong> for one story or <strong>Share my year</strong> to select several cards and send a carousel. Review the selection: shared cards exclude photos and personal notes, but include the summary data they display. Recorded spending and estimated coffee cost are different measures.</p>"
         },
         {
           "id": "export",
@@ -433,7 +483,7 @@
         {
           "id": "zip",
           "title": "Guarda una copia completa con fotos",
-          "body": "<ol><li>Abre <strong>Ajustes → Compartir copia de seguridad</strong>.</li><li>Elige dónde guardar o enviar el archivo ZIP desde la hoja de Android.</li><li>Comprueba que el archivo está en el destino y conserva una copia fuera del teléfono si quieres poder recuperarla al perderlo.</li></ol><p>El ZIP contiene el diario y sus fotos. Un CSV sirve para análisis y un JSON suelto no lleva los archivos de imagen. Para una copia completa, conserva el ZIP.</p>"
+          "body": "<ol><li>Abre <strong>Ajustes → Compartir copia de seguridad</strong>.</li><li>Elige dónde guardar o enviar el archivo ZIP desde la hoja de Android.</li><li>Comprueba que el archivo está en el destino y conserva una copia fuera del teléfono si quieres poder recuperarla al perderlo.</li></ol><p>El ZIP contiene el diario y sus fotos. Un CSV sirve para análisis y un JSON suelto no lleva los archivos de imagen. Para una copia completa, conserva el ZIP.</p><p>Las copias actuales incluyen la biblioteca de perfiles de extracción y la referencia utilizada en cada tiro. Durante una exportación o restauración manual, espera a que termine el progreso antes de iniciar otra operación. Un error no equivale a una copia completada: comprueba el archivo de destino.</p>"
         },
         {
           "id": "automatic",
@@ -464,7 +514,7 @@
         {
           "id": "zip",
           "title": "Save a full backup with photos",
-          "body": "<ol><li>Open <strong>Settings → Share backup</strong>.</li><li>Choose where to save or send the ZIP through Android's share sheet.</li><li>Check that the file reached its destination. Keep a copy outside the phone if you want to recover it after losing the device.</li></ol><p>The ZIP includes the journal and photos. A CSV is for analysis, and a standalone JSON does not carry image files. Keep the ZIP for a full backup.</p>"
+          "body": "<ol><li>Open <strong>Settings → Share backup</strong>.</li><li>Choose where to save or send the ZIP through Android's share sheet.</li><li>Check that the file reached its destination. Keep a copy outside the phone if you want to recover it after losing the device.</li></ol><p>The ZIP includes the journal and photos. A CSV is for analysis, and a standalone JSON does not carry image files. Keep the ZIP for a full backup.</p><p>Current backups include the extraction profile library and the reference used for each shot. During a manual export or restore, wait for progress to finish before starting another operation. An error is not a completed backup: check the destination file.</p>"
         },
         {
           "id": "automatic",
@@ -493,22 +543,27 @@
     "slug": "labels",
     "es": {
       "title": "Imprime etiquetas",
-      "description": "Prepara una etiqueta para un café o una porción congelada con una impresora Niimbot compatible.",
+      "description": "Diseña etiquetas para cafés o porciones congeladas con impresoras Niimbot y Pristar/Marklife P12 compatibles.",
       "sections": [
         {
           "id": "support",
           "title": "Comprueba el modelo",
-          "body": "<p>La impresión Niimbot es experimental. La compatibilidad depende del modelo, firmware y papel. El catálogo de tu versión de HolyBeans es la referencia para seleccionar la impresora; modelos parecidos no son necesariamente intercambiables.</p><p>Se han confirmado primeras impresiones con D110, B1 y B1 Pro. Los perfiles B21, B2 y B2 Pro requieren validación física adicional. Esa primera confirmación no garantiza todos los tamaños o variantes.</p>"
+          "body": "<p>La impresión Niimbot y Pristar/Marklife es experimental. La compatibilidad depende del modelo, firmware y papel. Selecciona el modelo exacto en HolyBeans; nombres parecidos no son intercambiables.</p><p>Se han confirmado primeras impresiones con Niimbot D110, B1, B1 Pro y D11-H. D11-H se ha probado con papel de 12 × 40 mm; los márgenes y otros tamaños necesitan más validación. D11, variantes B21, B2 y otros modelos sin pruebas físicas siguen sin verificar.</p><p>Selecciona <strong>D110_M</strong> para una impresora que se anuncia como D110_M o D110M. Es un modelo distinto de D110; su integración aún no está verificada con hardware físico en HolyBeans.</p>"
+        },
+        {
+          "id": "continuous",
+          "title": "Usa cinta continua en la P12",
+          "body": "<p>La <strong>Pristar/Marklife P12</strong> utiliza cinta continua de 15 mm con una altura imprimible de 12 mm. Elige una longitud de diseño de 30, 40 o 50 mm; después se alimentan unos 12,5 mm adicionales para cortar a mano.</p><p>Se ha confirmado un diseño legible de 40 mm. Otros firmwares, etiquetas con separación y otros modelos Marklife no están validados. Desconecta la app Marklife antes de buscar la P12 en el editor de etiquetas. Usa el mismo editor de plantillas e imágenes y revisa siempre el resultado físico.</p>"
         },
         {
           "id": "prepare",
           "title": "Prepara el diseño",
-          "body": "<ol><li>Abre el menú del café y pulsa <strong>Imprimir etiqueta</strong>.</li><li>Elige el modelo exacto y el tamaño del papel instalado.</li><li>Selecciona los datos del café o de la porción congelada y ajusta la plantilla.</li><li>Revisa la vista previa, los saltos de línea y el tamaño del texto. Si añades una imagen, comprueba su contraste.</li></ol><p>La etiqueta es monocroma. Un diseño que se ve bien en la pantalla puede necesitar menos contenido para ser legible en un papel pequeño.</p>"
+          "body": "<ol><li>Abre el menú del café y pulsa <strong>Imprimir etiqueta</strong>.</li><li>Elige el modelo exacto y el tamaño del papel instalado.</li><li>Selecciona los datos del café o de la porción congelada y ajusta la plantilla.</li><li>Revisa la vista previa, los saltos de línea y el tamaño del texto. Si añades una imagen, comprueba su contraste.</li></ol><p>La etiqueta es monocroma. Un diseño que se ve bien en la pantalla puede necesitar menos contenido para ser legible en un papel pequeño.</p><p>El editor permite ajustar la posición horizontal y vertical de las imágenes. También puedes incluir <strong>Días desde el tueste</strong> en la plantilla cuando el lote tenga esa fecha. Vuelve a comprobar la vista previa al cambiar de tamaño o impresora.</p>"
         },
         {
           "id": "print",
           "title": "Conecta e imprime",
-          "body": "<ol><li>Enciende la impresora, comprueba el papel y desconéctala de la app Niimbot u otros móviles.</li><li>Busca y conecta la impresora desde la pantalla de etiquetas.</li><li>Comprueba de nuevo modelo, papel y vista previa. Pulsa imprimir cuando estés listo.</li><li>Revisa la etiqueta física aunque la impresora confirme el trabajo.</li></ol><p>HolyBeans envía el trabajo cuando tú lo solicitas. No calibra la impresora, actualiza su firmware ni cambia ajustes ajenos al trabajo.</p>"
+          "body": "<ol><li>Enciende la impresora, comprueba el papel y desconéctala de las apps Niimbot o Marklife y de otros móviles.</li><li>Busca y conecta la impresora desde la pantalla de etiquetas.</li><li>Comprueba de nuevo modelo, papel y vista previa. Pulsa imprimir cuando estés listo.</li><li>Revisa la etiqueta física aunque la impresora confirme el trabajo.</li></ol><p>HolyBeans envía el trabajo cuando tú lo solicitas. No calibra la impresora, actualiza su firmware ni cambia ajustes ajenos al trabajo.</p>"
         },
         {
           "id": "uncertain",
@@ -519,22 +574,27 @@
     },
     "en": {
       "title": "Print labels",
-      "description": "Prepare a label for a coffee or frozen portion using a compatible Niimbot printer.",
+      "description": "Design labels for coffees or frozen portions with compatible Niimbot and Pristar/Marklife P12 printers.",
       "sections": [
         {
           "id": "support",
           "title": "Check the model",
-          "body": "<p>Niimbot printing is experimental. Compatibility depends on model, firmware and paper. Use the model list in your version of HolyBeans to select the printer; similar names are not necessarily interchangeable.</p><p>First prints have been confirmed with D110, B1 and B1 Pro. B21, B2 and B2 Pro profiles need further physical validation. An initial confirmation does not guarantee every size or variant.</p>"
+          "body": "<p>Niimbot and Pristar/Marklife printing is experimental. Compatibility depends on model, firmware and paper. Select the exact model in HolyBeans; similar names are not interchangeable.</p><p>First prints have been confirmed with Niimbot D110, B1, B1 Pro and D11-H. D11-H has been tried with 12 × 40 mm paper; margins and other sizes need more validation. D11, B21 variants, B2 and other models without physical tests remain unverified.</p><p>Select <strong>D110_M</strong> for a printer advertised as D110_M or D110M. It is a different model from D110; its integration remains unverified on physical hardware in HolyBeans.</p>"
+        },
+        {
+          "id": "continuous",
+          "title": "Use continuous tape with the P12",
+          "body": "<p>The <strong>Pristar/Marklife P12</strong> uses 15 mm continuous tape with a 12 mm printable height. Choose a design length of 30, 40 or 50 mm; about 12.5 mm of extra tape feeds afterwards for manual cutting.</p><p>A legible 40 mm design has been confirmed. Other firmware, gap labels and other Marklife models are unvalidated. Disconnect the Marklife app before searching for the P12 in the label editor. Use the same template and image editor and always inspect the physical result.</p>"
         },
         {
           "id": "prepare",
           "title": "Prepare the design",
-          "body": "<ol><li>Open the coffee menu and tap <strong>Print label</strong>.</li><li>Select the exact model and installed paper size.</li><li>Choose coffee or frozen-portion information and adjust the template.</li><li>Review the preview, line breaks and text size. Check contrast if you include an image.</li></ol><p>Labels are monochrome. A design that looks good on screen may need less content to remain readable on small paper.</p>"
+          "body": "<ol><li>Open the coffee menu and tap <strong>Print label</strong>.</li><li>Select the exact model and installed paper size.</li><li>Choose coffee or frozen-portion information and adjust the template.</li><li>Review the preview, line breaks and text size. Check contrast if you include an image.</li></ol><p>Labels are monochrome. A design that looks good on screen may need less content to remain readable on small paper.</p><p>The editor lets you adjust images horizontally and vertically. You can also include <strong>Days from roast</strong> in a template when the lot has that date. Recheck the preview after changing size or printer.</p>"
         },
         {
           "id": "print",
           "title": "Connect and print",
-          "body": "<ol><li>Turn on the printer, check its paper and disconnect it from the Niimbot app or other phones.</li><li>Search for and connect the printer from the label screen.</li><li>Recheck model, paper and preview. Tap print when you are ready.</li><li>Inspect the physical label even if the printer confirms the job.</li></ol><p>HolyBeans sends a print job when you request it. It does not calibrate the printer, update firmware or change settings unrelated to the job.</p>"
+          "body": "<ol><li>Turn on the printer, check its paper and disconnect it from the Niimbot or Marklife apps and other phones.</li><li>Search for and connect the printer from the label screen.</li><li>Recheck model, paper and preview. Tap print when you are ready.</li><li>Inspect the physical label even if the printer confirms the job.</li></ol><p>HolyBeans sends a print job when you request it. It does not calibrate the printer, update firmware or change settings unrelated to the job.</p>"
         },
         {
           "id": "uncertain",
@@ -576,6 +636,11 @@
           "body": "<p>Comprueba si restauraste un ZIP completo o un JSON sin imágenes. Las copias internas solo pueden volver a enlazar las fotos que sigan en el teléfono. Si conservas un ZIP con fotos, guarda antes el estado actual y utiliza ese archivo para la recuperación.</p>"
         },
         {
+          "id": "startup",
+          "title": "La app no puede abrir el diario",
+          "body": "<p>Si aparece <strong>No se pudo abrir tu diario</strong>, cierra y vuelve a abrir la app. La pantalla de recuperación permite consultar los detalles del error y compartir las copias guardadas antes de una actualización, si existen.</p><p>Conserva esas copias antes de hacer cambios; no incluyen fotos. No borres el almacenamiento ni desinstales para intentar resolverlo sin tener una copia externa. Si persiste, comunica la versión y el mensaje de error siguiendo las indicaciones de contacto.</p>"
+        },
+        {
           "id": "support",
           "title": "Pide ayuda con el contexto necesario",
           "body": "<p>Indica la versión de HolyBeans desde <strong>Ajustes → Acerca de</strong>, versión de Android, pasos realizados, resultado esperado y mensaje que aparece. Para dispositivos, añade modelo y firmware si lo conoces.</p><p>Si envías una captura, oculta nombres, cuentas, direcciones y notas personales. No adjuntes contraseñas, claves, identificadores Bluetooth ni una copia completa de tu diario para una consulta inicial.</p><p>Contacto: <a href=\"mailto:corteshxn@gmail.com\">corteshxn@gmail.com</a>.</p>"
@@ -610,6 +675,11 @@
           "id": "photos",
           "title": "Photos are missing after recovery",
           "body": "<p>Check whether you restored a full ZIP or a JSON without images. Internal copies can only relink photos still on the phone. If you have a ZIP with photos, save the current state first, then use that file for recovery.</p>"
+        },
+        {
+          "id": "startup",
+          "title": "The app cannot open the journal",
+          "body": "<p>If <strong>Could not open your journal</strong> appears, close and reopen the app. The recovery screen lets you inspect error details and share copies saved before an update, when available.</p><p>Keep those copies before making changes; they do not include photos. Do not clear storage or uninstall as a troubleshooting step without an external backup. If the problem persists, report the version and error message following the contact guidance.</p>"
         },
         {
           "id": "support",
